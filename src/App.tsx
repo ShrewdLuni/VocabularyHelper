@@ -3,18 +3,12 @@ import { MainPage } from "./components/MainPage"
 import { GamePage } from "./components/GamePage";
 
 function App() {
-
   const [playing, setPlaying] = useState(false);
-
-  function togglePlay() {
-    setPlaying(!playing);
-  }
-
   return (
-    <div>
+    <div className="overflow-hidden">
       {!playing
-      ? <MainPage onPlay={togglePlay}/>
-      : <GamePage/>
+      ? <MainPage onPlay={() => setPlaying(true)}/>
+      : <GamePage onEnd={() => setPlaying(false)}/>
       }
     </div>
   )

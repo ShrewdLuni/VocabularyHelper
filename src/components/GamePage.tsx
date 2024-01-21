@@ -1,9 +1,10 @@
 import { useState } from "react";
 
 import { Input } from "@/components/ui/input"
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
-
 import { cn } from "@/lib/utils";
+
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 interface GamePageProps {
   onEnd: any;
@@ -12,7 +13,6 @@ interface GamePageProps {
 export const GamePage = ({onEnd} : GamePageProps) => {
   const [value, setValue] = useState("");
   const [index, setIndex] = useState(0);
-  const [right, setRight] = useState(0);
 
   //get data from db
   let data:any = [
@@ -27,25 +27,16 @@ export const GamePage = ({onEnd} : GamePageProps) => {
   }
 
   function checkAnswer(userAnswer : string) {
-    let result = (userAnswer === "db" + " ");
+    let dbAnswer = "db" + " ";
+    let result = (userAnswer === dbAnswer);
     if(result)
-    {
-      console.log("right");
-      setRight(1);
-      setTimeout(function() {
-        setRight(0);
-      }, 500);
-    }
-    else{
-      setRight(-1);
-      setTimeout(function() {
-        setRight(0);
-      }, 500);
-    }
+      toast.success("", {position: "top-left", theme: "dark",autoClose: 5000});
+    else
+      toast.error(`${dbAnswer}✅ ,not: ${userAnswer}❌`, {position: "top-left", theme: "dark",autoClose: 15000});
     if(index >= data.length-1){
       setTimeout(function() {
         onEnd();
-      }, 500);
+      }, 15000);
     }
     else{
       setIndex(index + 1);
@@ -54,15 +45,13 @@ export const GamePage = ({onEnd} : GamePageProps) => {
     }
   }
 
-
-
-
 	return (
-    <div className={cn("text-center h-screen flex flex-col justify-center items-center text-white px-6",right !== 0 ? right === -1 ? "bg-rose-600" : "bg-green-500" : "bg-gray-900")}>
+    <div className={cn("text-center bg-gray-900 h-screen flex flex-col justify-center items-center text-white px-6")}>
       <div className="border-solid border-4 border-green-600 rounded-xl">
         <img className="object-cover h-[50vh] rounded-t-md" src={data[index].imageUrl}/>
         <p className="border-solid border-t-[6px] border-green-600">{data[index].text}</p>
       </div>
+      <ToastContainer stacked style={{ width: "200  px" }}/>
       <div>
         <Input value={value} onChange={(event) => handleInput(event)} placeholder="What is it?" className="mt-[5%] bg-gray-800 border-solid border-2 border-purple-500 rounded-2xl text-center text-white focus-visible:ring-0 focus-visible:ring-transparent focus-visible:ring-offset-0"/>
       </div>

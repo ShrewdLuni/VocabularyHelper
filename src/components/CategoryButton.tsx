@@ -16,6 +16,7 @@ export const CategoryButton = ({text, turnAll} : CategoryButtonProps) => {
       console.log("123");
     }
     setState(!state);
+    //change state in db
   }
 
   return (

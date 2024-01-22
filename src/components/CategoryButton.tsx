@@ -13,7 +13,7 @@ export const CategoryButton = ({text, turnAll} : CategoryButtonProps) => {
 
   function toggleState() {
     if(turnAll){
-      console.log("123");
+      console.log("");
     }
     setState(!state);
     //change state in db

@@ -13,6 +13,8 @@ interface GamePageProps {
 }
 
 export const GamePage = ({onEnd} : GamePageProps) => {
+  const data : any = wordData.words.filter((word) =>  word.category === "food");
+
   const [value, setValue] = useState("");
   const [index, setIndex] = useState(0);
   const [isEnded, setIsEnded] = useState(false);
@@ -25,7 +27,7 @@ export const GamePage = ({onEnd} : GamePageProps) => {
   }
 
   function checkAnswer(userAnswer : string) {
-    const answer = wordData.words[index].answer + " ";
+    const answer = data[index].answer + " ";
     const result = (userAnswer === answer);
     
     if(result)
@@ -54,8 +56,8 @@ export const GamePage = ({onEnd} : GamePageProps) => {
         {!isEnded
         ? <div>
             <div className="border-solid border-4 border-green-600 rounded-xl">
-              <img className="object-cover h-[50vh] rounded-t-md" src={wordData.words[index].imageSource}/>
-              <p className="border-solid border-t-[6px] border-green-600">{wordData.words[index].title}</p>
+              <img className="object-cover h-[50vh] rounded-t-md" src={data[index].imageSource}/>
+              <p className="border-solid border-t-[6px] border-green-600">{data[index].title}</p>
             </div>
             <div>
               <Input value={value} onChange={(event) => handleInput(event)} placeholder="What is it?" className="mt-[5%] bg-gray-800 border-solid border-2 border-purple-500 rounded-2xl text-center text-white focus-visible:ring-0 focus-visible:ring-transparent focus-visible:ring-offset-0"/>

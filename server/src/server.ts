@@ -21,7 +21,7 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 
 
-const DATABASE_URL="mongodb+srv://Shewd:3dL5bWpeBIMIcN98@vocabularyhelperdb.ea34ucy.mongodb.net/?retryWrites=true&w=majority"
+const DATABASE_URL="mongodb+srv://Shewd:<password>@vocabularyhelperdb.ea34ucy.mongodb.net/?retryWrites=true&w=majority"
 
 mongoose.Promise = Promise;
 mongoose.connect(DATABASE_URL);

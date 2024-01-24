@@ -9,15 +9,13 @@ import 'react-toastify/dist/ReactToastify.css';
 import * as wordData from '../assets/wordsData/words.json';
 
 interface GamePageProps {
-  onEnd: any;//type
+  onEnd: any;
 }
 
 export const GamePage = ({onEnd} : GamePageProps) => {
   const [value, setValue] = useState("");
   const [index, setIndex] = useState(0);
   const [isEnded, setIsEnded] = useState(false);
-
-  console.log(wordData.words);
 
   function handleInput(event : any) {
     if(event.target.value.slice(-1) === " ")
@@ -67,7 +65,6 @@ export const GamePage = ({onEnd} : GamePageProps) => {
         }
       </div>
       <ToastContainer stacked style={{ width: "200  px" }}/>
-      
     </div>
 	)
 }

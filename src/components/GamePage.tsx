@@ -1,6 +1,8 @@
 import { useState } from "react";
 
 import { Input } from "@/components/ui/input"
+import { Button } from "./ui/button";
+
 import { cn } from "@/lib/utils";
 
 import { ToastContainer, toast } from 'react-toastify';
@@ -64,7 +66,10 @@ export const GamePage = ({onEnd, categories} : GamePageProps) => {
               <Input value={value} onChange={(event) => handleInput(event)} placeholder="What is it?" className="mt-[5%] bg-gray-800 border-solid border-2 border-purple-500 rounded-2xl text-center text-white focus-visible:ring-0 focus-visible:ring-transparent focus-visible:ring-offset-0"/>
             </div>
           </div>
-        : <div>Game Over</div>
+        : <div>
+            Game Over
+            <Button className={"bg-rose-500 text-white w-full h-full mt-4"} variant="ghost" onClick={() => {onEnd();setIsEnded(false)}}>Exit</Button>
+          </div>
         }
       </div>
       <ToastContainer stacked style={{ width: "200  px" }}/>

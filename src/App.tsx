@@ -20,11 +20,23 @@ function App() {
     "ALL" : false,
   });
 
+  function setAllCategories(state : boolean) {
+    setCategories({
+      "food": state,
+      "family":state,
+      "routine":state,
+      "clothes":state,
+      "health":state,
+      "weather":state,
+      "location":state,
+      "ALL":state})
+  }
+
 
   return (
     <div className="overflow-hidden">
       {!playing
-      ? <MainPage onPlay={() => {setPlaying(true);}} categories={categories} updateCategories={setCategories} />
+      ? <MainPage onPlay={() => {setPlaying(true);if(Object.values(categories).filter(item => item === true).length == 0){setAllCategories(true)}}} categories={categories} updateCategories={setCategories} setAllCategories={setAllCategories}/>
       : <GamePage onEnd={() => setPlaying(false)} categories={categories}/>
       }
     </div>

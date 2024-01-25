@@ -6,9 +6,10 @@ interface MainPageProps {
   onPlay: any;
   categories: Record<string, boolean>;
   updateCategories: any;
+  setAllCategories: any;
 }
 
-export const MainPage = ({onPlay, categories,updateCategories} : MainPageProps) => {
+export const MainPage = ({onPlay, categories,updateCategories,setAllCategories} : MainPageProps) => {
 	return (
     <div className="text-center bg-gray-900 h-screen flex flex-col justify-center items-center">
       <div className="grid grid-cols-4 gap-4 w-[90%] lg:w-[50%]">
@@ -34,7 +35,7 @@ export const MainPage = ({onPlay, categories,updateCategories} : MainPageProps) 
           <Button className={cn("bg-rose-500 text-white w-full h-full max-w-[170px]",categories["location"] && "border-solid border-green-500 border-2 p-[2px]")} variant="ghost" onClick={() => {updateCategories({...categories,"location" : !categories["location"]})}}>{"Location"}</Button>
         </div>
         <div>
-          <Button className={cn("bg-rose-500 text-white w-full h-full max-w-[170px]",categories["ALL"] && "border-solid border-green-500 border-2 p-[2px]")} variant="ghost" onClick={() => {updateCategories({"food":!categories["ALL"],"family":!categories["ALL"],"routine":!categories["ALL"],"clothes":!categories["ALL"],"health":!categories["ALL"],"weather":!categories["ALL"],"location":!categories["ALL"],"ALL":!categories["ALL"]})}}>{"All"}</Button>
+          <Button className={cn("bg-rose-500 text-white w-full h-full max-w-[170px]",categories["ALL"] && "border-solid border-green-500 border-2 p-[2px]")} variant="ghost" onClick={() => {setAllCategories(!categories["ALL"])}}>{"All"}</Button>
         </div>
       </div>
 

@@ -10,10 +10,12 @@ import * as wordData from '../assets/wordsData/words.json';
 
 interface GamePageProps {
   onEnd: any;
+  categories: Record<string, boolean>;
 }
 
-export const GamePage = ({onEnd} : GamePageProps) => {
-  const data : any = wordData.words.filter((word) =>  word.category === "food");
+export const GamePage = ({onEnd, categories} : GamePageProps) => {
+  console.log(categories);
+  const data : any = wordData.words.filter((word) =>  categories[word.category] === true);
 
   const [value, setValue] = useState("");
   const [index, setIndex] = useState(0);

@@ -4,19 +4,16 @@ import { cn } from "@/lib/utils";
 
 interface CategoryButtonProps {
   text: string;
-  turnAll?: boolean;
+  setCategory: any;
 }
 
-export const CategoryButton = ({text, turnAll} : CategoryButtonProps) => {
+export const CategoryButton = ({text ,setCategory} : CategoryButtonProps) => {
 
   const [state, setState] = useState(false);
 
   function toggleState() {
-    if(turnAll){
-      console.log("");
-    }
     setState(!state);
-    //change state in db
+    setCategory(!state);
   }
 
   return (

@@ -14,7 +14,6 @@ interface GamePageProps {
 }
 
 export const GamePage = ({onEnd, categories} : GamePageProps) => {
-  console.log(categories);
   const data : any = wordData.words.filter((word) =>  categories[word.category] === true);
 
   const [value, setValue] = useState("");
@@ -37,7 +36,7 @@ export const GamePage = ({onEnd, categories} : GamePageProps) => {
     else
       toast.error(`${answer}✅ ,not: ${userAnswer}❌`, {position: "top-left", theme: "dark",autoClose: 15000});
 
-    if(index >= wordData.words.length-1){
+    if(index >= data.length-1){
       setIsEnded(true);
 
       setTimeout(function() {

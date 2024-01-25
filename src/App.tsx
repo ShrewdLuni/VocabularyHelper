@@ -17,6 +17,7 @@ function App() {
     "health":false,
     "weather":false,
     "location":false,
+    "ALL" : false,
   });
 
 

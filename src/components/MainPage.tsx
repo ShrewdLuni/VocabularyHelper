@@ -33,6 +33,9 @@ export const MainPage = ({onPlay, categories,updateCategories} : MainPageProps) 
         <div>
           <Button className={cn("bg-rose-500 text-white w-full h-full max-w-[170px]",categories["location"] && "border-solid border-green-500 border-2 p-[2px]")} variant="ghost" onClick={() => {updateCategories({...categories,"location" : !categories["location"]})}}>{"Location"}</Button>
         </div>
+        <div>
+          <Button className={cn("bg-rose-500 text-white w-full h-full max-w-[170px]",categories["ALL"] && "border-solid border-green-500 border-2 p-[2px]")} variant="ghost" onClick={() => {updateCategories({"food":!categories["ALL"],"family":!categories["ALL"],"routine":!categories["ALL"],"clothes":!categories["ALL"],"health":!categories["ALL"],"weather":!categories["ALL"],"location":!categories["ALL"],"ALL":!categories["ALL"]})}}>{"All"}</Button>
+        </div>
       </div>
 
       <GameModes/>

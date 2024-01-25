@@ -8,16 +8,12 @@ import { cn } from "@/lib/utils";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-import * as wordData from '../assets/wordsData/words.json';
-
 interface GamePageProps {
   onEnd: any;
-  categories: Record<string, boolean>;
+  data: any;
 }
 
-export const GamePage = ({onEnd, categories} : GamePageProps) => {
-  const data : any = wordData.words.filter((word) =>  categories[word.category] === true);
-
+export const GamePage = ({onEnd, data} : GamePageProps) => {
   const [value, setValue] = useState("");
   const [index, setIndex] = useState(0);
   const [isEnded, setIsEnded] = useState(false);
@@ -38,17 +34,23 @@ export const GamePage = ({onEnd, categories} : GamePageProps) => {
     else
       toast.error(`${answer}✅ ,not: ${userAnswer}❌`, {position: "top-left", theme: "dark",autoClose: 15000});
 
-    if(index >= data.length-1){
+    if(index >= data.length-1)
+    {
       setIsEnded(true);
-
       setTimeout(function() {
         onEnd();
         setIsEnded(false);
       }, 15000);
     }
-    else{
+    else
+    {
+      //if(!(word results.includes(data[index].title)){
+      //  word results.add([key : data[index].title] : {number : 1, streak: 0})
+      //}
+      //else{
+      //   word results.update([key : data[index].title] : {number : 1, streak: 0})
+      //}
       setIndex(index + 1);
-      //db add
       setValue("");
     }
   }

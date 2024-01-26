@@ -10,6 +10,7 @@ interface CategoriesList {
 
 function App() {
   const [playing, setPlaying] = useState(false);
+  const [gameMode, setGameMode] = useState(0);
   const [categories,setCategories] = useState<CategoriesList>(
   {
     "food":false,
@@ -55,8 +56,8 @@ function App() {
   return (
     <div className="overflow-hidden">
       {!playing
-      ? <MainPage onPlay={() => {setPlaying(true);if(Object.values(categories).filter(item => item === true).length == 0){setAllCategories(true)}}} categories={categories} updateCategories={setCategories} setAllCategories={setAllCategories}/>
-      : <GamePage onEnd={() => setPlaying(false)} data={getData()}/>
+      ? <MainPage onPlay={() => {setPlaying(true);if(Object.values(categories).filter(item => item === true).length == 0){setAllCategories(true)}}} categories={categories} updateCategories={setCategories} setAllCategories={setAllCategories} gameMode={gameMode} setGameMode={setGameMode}/>
+      : <GamePage onEnd={() => setPlaying(false)} data={getData()} gameModeType={gameMode === 0}/>
       }
     </div>
   )

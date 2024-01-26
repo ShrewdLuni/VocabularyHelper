@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
-import { Input } from "@/components/ui/input"
+import { Input } from "@/components/ui/input";
 import { Button } from "./ui/button";
 
 import { cn } from "@/lib/utils";
@@ -11,12 +11,19 @@ import 'react-toastify/dist/ReactToastify.css';
 interface GamePageProps {
   onEnd: any;
   data: any;
+  gameModeType: boolean;
 }
 
-export const GamePage = ({onEnd, data} : GamePageProps) => {
+export const GamePage = ({onEnd, data, gameModeType} : GamePageProps) => {
   const [value, setValue] = useState("");
   const [index, setIndex] = useState(0);
   const [isEnded, setIsEnded] = useState(false);
+
+  const [answerOptions, setAnswerOptions] = useState<number[]>([index,index,index]);
+
+  useEffect(() => {
+    getNames();
+  }, [])
 
   function handleInput(event : any) {
     if(event.target.value.slice(-1) === " ")
@@ -50,9 +57,19 @@ export const GamePage = ({onEnd, data} : GamePageProps) => {
       //else{
       //   word results.update([key : data[index].title] : {number : 1, streak: 0})
       //}
+      getNames();
       setIndex(index + 1);
       setValue("");
     }
+  }
+
+  function getNames(){
+    const tempData : number[] = [Math.floor(Math.random()*data.length), index+1, Math.floor(Math.random()*data.length)]
+    for (let i = tempData.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [tempData[i], tempData[j]] = [tempData[j], tempData[i]];
+    }
+    setAnswerOptions(tempData)
   }
 
 	return (
@@ -65,7 +82,16 @@ export const GamePage = ({onEnd, data} : GamePageProps) => {
               <p className="border-solid border-t-[6px] border-green-600">{data[index].title}</p>
             </div>
             <div>
-              <Input value={value} onChange={(event) => handleInput(event)} placeholder="What is it?" className="mt-[5%] bg-gray-800 border-solid border-2 border-purple-500 rounded-2xl text-center text-white focus-visible:ring-0 focus-visible:ring-transparent focus-visible:ring-offset-0"/>
+              {gameModeType
+              ? <div>
+                  <Input value={value} onChange={(event) => handleInput(event)} placeholder="What is it?" className="mt-[5%] bg-gray-800 border-solid border-2 border-purple-500 rounded-2xl text-center text-white focus-visible:ring-0 focus-visible:ring-transparent focus-visible:ring-offset-0"/>
+                </div>
+              : <div className="flex gap-x-3">
+                  <Button className={"bg-rose-500 text-white w-full h-full mt-4"} variant="ghost" onClick={() => {checkAnswer(data[answerOptions[0]].answer + " ")}}>{data[answerOptions[0]].answer}</Button>
+                  <Button className={"bg-rose-500 text-white w-full h-full mt-4"} variant="ghost" onClick={() => {checkAnswer(data[answerOptions[1]].answer + " ")}}>{data[answerOptions[1]].answer}</Button>
+                  <Button className={"bg-rose-500 text-white w-full h-full mt-4"} variant="ghost" onClick={() => {checkAnswer(data[answerOptions[2]].answer + " ")}}>{data[answerOptions[2]].answer}</Button>
+                </div>
+              }
             </div>
           </div>
         : <div>

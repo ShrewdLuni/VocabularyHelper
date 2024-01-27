@@ -86,7 +86,7 @@ export const GamePage = ({onEnd, data, gameModeType} : GamePageProps) => {
         ? <div>
             <div className="border-solid border-4 border-green-600 rounded-xl">
               <img className="object-cover h-[50vh] rounded-t-md" src={data[index].imageSource}/>
-              <p className="border-solid border-t-[6px] border-green-600">{data[index].title}</p>
+              <p className="border-solid border-t-[6px] border-green-600 min-w-full min-h-full">{data[index].title}</p>
             </div>
             <div>
               {gameModeType

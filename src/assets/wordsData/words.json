@@ -159,7 +159,7 @@
     },
     {    
       "title": "Fork",
-      "imageSource": "https://www.webstaurantstore.com/images/products/extra_large/369282/2405763.jpg",
+      "imageSource": "https://i.pinimg.com/originals/f3/fe/65/f3fe65a3507c2b657c3b3d26c713d16a.jpg",
       "answer": "Widelec",
       "category": "food"
     },
@@ -189,7 +189,7 @@
     },    
     {    
       "title": "Cup",
-      "imageSource": "https://m.media-amazon.com/images/I/61JlsocArYL._AC_UF1000,1000_QL80_.jpg",
+      "imageSource": "https://domdekoracji.pl/userdata/public/gfx/28782/290-9059.jpg",
       "answer": "Filiżanka",
       "category": "food"
     },    
@@ -234,6 +234,249 @@
       "imageSource": "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/lemon-health-benefits-1296x728-feature.jpg?w=1155&h=1528",
       "answer": "Cytryna",
       "category": "food"
+    },
+
+
+
+    {    
+      "title": "Dress",
+      "imageSource": "https://www.shutterstock.com/image-vector/set-women-dresses-line-icon-600nw-2180412933.jpg",
+      "answer": "Sukienka",
+      "category": "clothes"
+    },
+    {    
+      "title": "Skirt",
+      "imageSource": "https://hips.hearstapps.com/hmg-prod/images/1-summer23-skirts-comp-6424c9a4f329a.jpg?crop=1.00xw:1.00xh;0,0&resize=640:*",
+      "answer": "Spódnica",
+      "category": "clothes"
+    },
+    {    
+      "title": "Blouse",
+      "imageSource": "https://as2.ftcdn.net/v2/jpg/03/66/88/81/1000_F_366888161_uwhCGTBCnAEjlCmvfMcOmGQijbFF0rMl.jpg",
+      "answer": "Bluzka",
+      "category": "clothes"
+    },
+    {    
+      "title": "Sweater",
+      "imageSource": "https://m.media-amazon.com/images/I/71lB3VSLGFL._AC_UY1000_.jpg",
+      "answer": "Sweter",
+      "category": "clothes"
+    },
+    {    
+      "title": "Pants",
+      "imageSource": "https://media.gq.com/photos/654a6a4a9efb7efc0873125a/3:2/w_1686,h_1124,c_limit/casual-pants-for-men.jpg",
+      "answer": "Spodnie",
+      "category": "clothes"
+    },
+    {    
+      "title": "Shorts",
+      "imageSource": "https://m.media-amazon.com/images/I/61VnjJQGHLL._AC_UY1000_.jpg",
+      "answer": "Szorty",
+      "category": "clothes"
+    },
+    {    
+      "title": "Jacket",
+      "imageSource": "https://a.allegroimg.com/original/11644d/b8455095418c9891bbb77999e436/KLASYCZNY-MODNY-ZAKIET-CASUAL-MARYNARKA-BLEZER",
+      "answer": "Zakiet",
+      "category": "clothes"
+    },
+    {    
+      "title": "Winter jacket",
+      "imageSource": "https://m.media-amazon.com/images/I/61DpCzvN0+L._AC_UY1000_.jpg",
+      "answer": "Kurtka",
+      "category": "clothes"
+    },
+    {    
+      "title": "Coat",
+      "imageSource": "https://www.bodenimages.com/productimages/r1aproductlarge/23waut_u0154_cam.jpg",
+      "answer": "Płaszcz",
+      "category": "clothes"
+    },
+    {    
+      "title": "Shirt",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0096/2622/2688/files/05_TT_F23-01_OFB_APRIL_DRESS_SHIRTS_WHITE_STORY_BANNER.jpg?v=1687959189",
+      "answer": "Koszula",
+      "category": "clothes"
+    },
+    {    
+      "title": "Tie",
+      "imageSource": "https://m.media-amazon.com/images/I/81AneYFANBL._AC_UY1100_.jpg",
+      "answer": "Krawat",
+      "category": "clothes"
+    },
+    {    
+      "title": "Bow-tie",
+      "imageSource": "https://m.media-amazon.com/images/I/61NQ37WpxmL._AC_UY1000_.jpg",
+      "answer": "Muszka",
+      "category": "clothes"
+    },
+    {    
+      "title": "Jeans",
+      "imageSource": "https://www.bugatti-fashion.com/media/bug_magazin_ratgeber_slim-jeans2280x1200.jpg",
+      "answer": "Dżinsy",
+      "category": "clothes"
+    },
+    {    
+      "title": "Pajamas",
+      "imageSource": "https://people.com/thmb/LT4ZVtHQc0WeffhTsRm-sK204BU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/the-best-pajamas-for-women-tout-1df1f311fa1c4edbb5052b5096774771.jpg",
+      "answer": "Piżama",
+      "category": "clothes"
+    },
+    {    
+      "title": "Socks",
+      "imageSource": "https://www.rebelsport.com.au/dw/image/v2/BBRV_PRD/on/demandware.static/-/Sites-srg-internal-master-catalog/default/dw6fdd1aab/images/36394601/Rebel_36394601-01_white_hi-res.jpg?sw=750&sh=750&sm=fit&q=60",
+      "answer": "Skarpetki",
+      "category": "clothes"
+    },
+    {    
+      "title": "Sandals",
+      "imageSource": "https://www.numberoneshoes.co.nz/content/products/wilde-sandals-black-image02-wilde-sandals.jpg?width=2500",
+      "answer": "Sandały",
+      "category": "clothes"
+    },
+    {    
+      "title": "Flip-flops",
+      "imageSource": "https://www.thefoamlife.com/cdn/shop/files/FoamLife-Womens-Flip-Flops-2_1000x1000.jpg?v=1651153223",
+      "answer": "Klapki",
+      "category": "clothes"
+    },
+    {    
+      "title": "Heels",
+      "imageSource": "https://www.numberoneshoes.co.nz/content/products/almond-image02-dazzle-heels.jpg?width=2500",
+      "answer": "Szpilki",
+      "category": "clothes"
+    },
+    {    
+      "title": "Sneakers",
+      "imageSource": "https://hips.hearstapps.com/hmg-prod/images/lead-image-sneakers-01-1657654115.jpg?resize=2048:*",
+      "answer": "Adidasy",
+      "category": "clothes"
+    },
+    {    
+      "title": "Boots",
+      "imageSource": "https://www.sheepskinshop.ca/cdn/shop/products/4KB_1_kids_sheepskin_boot.jpg?v=1620140932",
+      "answer": "Kozaki",
+      "category": "clothes"
+    },
+    {    
+      "title": "Hat",
+      "imageSource": "https://a.allegroimg.com/original/11d87b/1748736742069e5851fcf07bbb2e/KROTKA-CZAPKA-ZIMOWA-DOKERKA-ZLODZIEJKA-LEONKA",
+      "answer": "Czapka",
+      "category": "clothes"
+    },
+    {    
+      "title": "Scarf",
+      "imageSource": "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/bltf3590877fe05ae6f/633ec071c3ed6a1034872f1c/1-1saren.jpg?format=pjpg&auto=webp&quality=75%2C90&width=3840",
+      "answer": "Szalik",
+      "category": "clothes"
+    },
+    {    
+      "title": "Gloves",
+      "imageSource": "https://duka.com/media/catalog/product/cache/88c2480cc32e03bb6d6f41df6024675d/D/U/DUKA-SKARP-1218802-rekawiczki-ochronne_17_1.webp",
+      "answer": "Rękawiczki",
+      "category": "clothes"
+    },
+    {    
+      "title": "Bag",
+      "imageSource": "https://cdn11.bigcommerce.com/s-62pjwo3vq9/images/stencil/2560x2560/products/30430/42266/BAG-01__74959.1660188780.jpg?c=1",
+      "answer": "Torba",
+      "category": "clothes"
+    },
+    {    
+      "title": "Belt",
+      "imageSource": "https://cdn11.bigcommerce.com/s-uiywfsyvbe/images/stencil/1280x1280/products/470/4010/4010__34453.1667672545.jpg?c=1",
+      "answer": "Pasek",
+      "category": "clothes"
+    },
+    {    
+      "title": "Umbrella",
+      "imageSource": "https://www.ikea.com/ie/en/images/products/knalla-umbrella-black__0934105_pe792338_s5.jpg",
+      "answer": "Parasol",
+      "category": "clothes"
+    },
+    {    
+      "title": "Glasses",
+      "imageSource": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAUofn6C6F9hY3xMUYNcZGQ4E1JgBNQacUJw&usqp=CAU",
+      "answer": "Okulary",
+      "category": "clothes"
+    },
+    {
+      "title": "Watch",
+      "imageSource": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2016%2F12%2Fcolette-mad-paris-rolex-milgauss-who-cares-tw.jpg?w=960&cbr=1&q=90&fit=max",
+      "answer": "Zegarek",
+      "category": "clothes"
+    },
+    {
+      "title": "Blue",
+      "imageSource": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEUAlv+tY//LAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII=",
+      "answer": "Niebieski",
+      "category": "clothes"
+    },
+    {    
+      "title": "Red",
+      "imageSource": "https://htmlcolorcodes.com/assets/images/colors/red-color-solid-background-1920x1080.png",
+      "answer": "Czerwony",
+      "category": "clothes"
+    },
+    {    
+      "title": "Yellow",
+      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Solid_yellow.svg/640px-Solid_yellow.svg.png",
+      "answer": "Żółty",
+      "category": "clothes"
+    },
+    {    
+      "title": "Brown",
+      "imageSource": "https://htmlcolorcodes.com/assets/images/colors/dark-brown-color-solid-background-1920x1080.png",
+      "answer": "Brązowy",
+      "category": "clothes"
+    },
+    {    
+      "title": "Black",
+      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg",
+      "answer": "Czarny",
+      "category": "clothes"
+    },
+    {    
+      "title": "Green",
+      "imageSource": "https://www.paintscapes.ca/cdn/shop/products/006242_800x.png?v=1609958476",
+      "answer": "Zielony",
+      "category": "clothes"
+    },
+    {    
+      "title": "Orange(Color)",
+      "imageSource": "https://htmlcolorcodes.com/assets/images/colors/bright-orange-color-solid-background-1920x1080.png",
+      "answer": "Pomarańczowy",
+      "category": "clothes"
+    },
+    {    
+      "title": "Purple",
+      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Purple_website.svg/1200px-Purple_website.svg.png",
+      "answer": "Fioletowy",
+      "category": "clothes"
+    },
+    {    
+      "title": "Gray",
+      "imageSource": "https://www.paintscapes.ca/cdn/shop/products/434E52_800x.png?v=1609959778",
+      "answer": "Szary",
+      "category": "clothes"
+    },
+    {    
+      "title": "Pink",
+      "imageSource": "https://cdn11.bigcommerce.com/s-3uewkq06zr/images/stencil/1280x1280/products/258/543/fluorescent_pink__88610.1492541080.png?c=2",
+      "answer": "Różowy",
+      "category": "clothes"
+    },
+    {    
+      "title": "White",
+      "imageSource": "https://static.hillarys.co.uk/asset/media/9635/pure-white.jpg?mode=crop&mcb=5f884e47a7424cfe86340315ccaafed0",
+      "answer": "Biały",
+      "category": "clothes"
+    },
+    {    
+      "title": "Navy(Color)",
+      "imageSource": "https://about.canva.com/wp-content/uploads/sites/8/2019/03/navy-blue.png",
+      "answer": "Granatowy",
+      "category": "clothes"
     }
   ]
 }

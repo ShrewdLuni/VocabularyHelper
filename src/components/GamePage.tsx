@@ -51,10 +51,6 @@ export const GamePage = ({onEnd, data, gameModeType} : GamePageProps) => {
     if(index >= data.length-1)
     {
       setIsEnded(true);
-      setTimeout(function() {
-        onEnd();
-        setIsEnded(false);
-      }, 15000);
     }
     else
     {
@@ -71,7 +67,12 @@ export const GamePage = ({onEnd, data, gameModeType} : GamePageProps) => {
   }
 
   function getNames(extra : number){
-    const tempData : number[] = [Math.floor(Math.random()*data.length), index+extra, Math.floor(Math.random()*data.length)]
+    let one = Math.floor(Math.random()*data.length);
+    let two = Math.floor(Math.random()*data.length);
+    while(one == two){
+      two = Math.floor(Math.random()*data.length);
+    }
+    const tempData : number[] = [one, index+extra, two]
     for (let i = tempData.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [tempData[i], tempData[j]] = [tempData[j], tempData[i]];

@@ -31,7 +31,7 @@ function App() {
       "clothes":state,
       "health":state,
       "weather":state,
-      "location":state,
+      "animals":state,
       "ALL":state})
   }
 

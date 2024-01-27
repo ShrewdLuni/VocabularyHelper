@@ -477,6 +477,487 @@
       "imageSource": "https://about.canva.com/wp-content/uploads/sites/8/2019/03/navy-blue.png",
       "answer": "Granatowy",
       "category": "clothes"
+    },
+
+
+
+    {    
+      "title": "Weather",
+      "imageSource": "https://t3.ftcdn.net/jpg/03/50/31/58/360_F_350315847_eo74yoI3NoaV9NFVSHj5DItIxwh6VUG0.jpg",
+      "answer": "Pogoda",
+      "category": "weather"
+    },
+    {    
+      "title": "Rain",
+      "imageSource": "https://img.freepik.com/free-photo/weather-effects-composition_23-2149853295.jpg",
+      "answer": "Deszcz",
+      "category": "weather"
+    },
+    {    
+      "title": "Snow",
+      "imageSource": "https://images.pexels.com/photos/45204/alm-friuli-snow-snowfall-45204.jpeg?cs=srgb&dl=pexels-pixabay-45204.jpg&fm=jpg",
+      "answer": "Śnieg",
+      "category": "weather"
+    },
+    {    
+      "title": "Fog",
+      "imageSource": "https://upload.wikimedia.org/wikipedia/en/3/33/Dense_Tule_fog_in_Bakersfield%2C_California.jpg",
+      "answer": "Mgła",
+      "category": "weather"
+    },
+    {    
+      "title": "Ice",
+      "imageSource": "https://wallpapers.com/images/hd/ice-pictures-wbiujydvi2temvrg.jpg",
+      "answer": "Lód",
+      "category": "weather"
+    },
+    {    
+      "title": "Storm",
+      "imageSource": "https://i.natgeofe.com/n/13f161bf-8838-4eca-a9fd-47e2e5370a69/01_epic_summer_storms_lightning.jpg",
+      "answer": "Burza",
+      "category": "weather"
+    },
+    {    
+      "title": "Sun",
+      "imageSource": "https://pngfre.com/wp-content/uploads/sun-50-1024x1024.png",
+      "answer": "Słońce",
+      "category": "weather"
+    },
+    {    
+      "title": "Freeze",
+      "imageSource": "https://www.twojediy.pl/wp-content/uploads/2017/02/mroz.jpg",
+      "answer": "Mróz",
+      "category": "weather"
+    },
+    {    
+      "title": "Frost/Cold",
+      "imageSource": "https://www.columbiatribune.com/gcdn/authoring/2018/01/23/NCDT/ghows-MO-6373e942-cfd9-1e88-e053-0100007fc1ed-b81bda2b.jpeg",
+      "answer": "Zimno",
+      "category": "weather"
+    },
+    {
+      "title": "Cloudy",
+      "imageSource": "https://cdn.mos.cms.futurecdn.net/JDffSbqHyJKwadME6Qyoj5.jpg",
+      "answer": "Pochmurny",
+      "category": "weather"
+    },
+    {    
+      "title": "Windy",
+      "imageSource": "https://scx2.b-cdn.net/gfx/news/hires/2022/windy.jpg",
+      "answer": "Wietrzny",
+      "category": "weather"
+    },
+    {    
+      "title": "Summer",
+      "imageSource": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQPQ_7mNFLb2F-5JZUvOXLoKevAOmmQI5U_A&usqp=CAU",
+      "answer": "Lato",
+      "category": "weather"
+    },
+    {    
+      "title": "Fall/Autumn",
+      "imageSource": "https://hips.hearstapps.com/hmg-prod/images/best-fall-pictures-1657042206.jpg",
+      "answer": "Jesień",
+      "category": "weather"
+    },
+    {    
+      "title": "Winter",
+      "imageSource": "https://loveincorporated.blob.core.windows.net/contentimages/gallery/6a985aaa-8a95-4382-97a9-91cdf96f43d3-Moraine_Lake_Dennis_Frates_Alamy_Stock_Photo.jpg",
+      "answer": "Zima",
+      "category": "weather"
+    },
+    {
+      "title": "Spring",
+      "imageSource": "https://media.cnn.com/api/v1/images/stellar/prod/210316134609-01-wisdom-project-spring.jpg?q=w_4000,h_2250,x_0,y_0,c_fill",
+      "answer": "Wiosna",
+      "category": "weather"
+    },
+    {
+      "title": "Hail",
+      "imageSource": "https://i0.wp.com/eos.org/wp-content/uploads/2020/09/Hailstone-2.5-inch-diameter-SW-of-Glendive-Montana-Credit-John-T-Allen-sized-for-Eos.jpg?fit=820%2C615&ssl=1",
+      "answer": "Wiosna",
+      "category": "weather"
+    },
+    {
+      "title": "Warm",
+      "imageSource": "https://fcom.pro/wp-content/uploads/2022/03/cieplo-obraz-wyrozniajacy.jpg",
+      "answer": "Ciepło",
+      "category": "weather"
+    },
+    {
+      "title": "January",
+      "imageSource": "https://www.itakeyou.co.uk/wp-content/uploads/2023/01/january-wallpaper-4.jpg",
+      "answer": "Styczeń",
+      "category": "weather"
+    },
+    {
+      "title": "Febuary",
+      "imageSource": "https://img.freepik.com/premium-vector/hand-drawn-lettering-phrase-february-month-february-calendar_652994-1321.jpg",
+      "answer": "Luty",
+      "category": "weather"
+    },
+    {
+      "title": "March",
+      "imageSource": "https://www.shutterstock.com/image-vector/word-march-on-white-background-260nw-2320060939.jpg",
+      "answer": "Marsz",
+      "category": "weather"
+    },
+    {
+      "title": "April",
+      "imageSource": "https://s3-eu-west-1.amazonaws.com/tpd/logos/619bb44a3c7b06e953905bd1/0x0.png",
+      "answer": "Kwiecień",
+      "category": "weather"
+    },
+    {
+      "title": "May",
+      "imageSource": "https://www.thefactsite.com/wp-content/uploads/2020/04/may-facts.jpg",
+      "answer": "Maj",
+      "category": "weather"
+    },
+    {
+      "title": "June",
+      "imageSource": "https://assets.site-static.com/userFiles/2453/image/janetweyandt/June-16.9.jpg",
+      "answer": "Czerwiec",
+      "category": "weather"
+    },
+    {
+      "title": "July",
+      "imageSource": "https://media.istockphoto.com/id/530308765/photo/july-word-on-sea.jpg?s=612x612&w=0&k=20&c=YfImjp46Dw0-GcgPmCUjlmgu6gxpPLu09AZQs974AcE=",
+      "answer": "Lipiec",
+      "category": "weather"
+    },
+    {
+      "title": "August",
+      "imageSource": "https://img.freepik.com/free-vector/hand-drawn-floral-august-lettering_23-2148998450.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1700524800&semt=sph",
+      "answer": "Sierpień",
+      "category": "weather"
+    },
+    {
+      "title": "September",
+      "imageSource": "https://t4.ftcdn.net/jpg/02/06/20/03/360_F_206200339_N9VJVoy0VvbbhRgGLIOHyJUJRJyxAmyO.jpg",
+      "answer": "Wrzesień",
+      "category": "weather"
+    },
+    {
+      "title": "October",
+      "imageSource": "https://t3.ftcdn.net/jpg/02/82/65/54/360_F_282655423_FGfm1fK1dAHkv0Id2ptlnhL4ng6bCyAH.jpg",
+      "answer": "Październik",
+      "category": "weather"
+    },
+    {
+      "title": "November",
+      "imageSource": "https://t3.ftcdn.net/jpg/04/62/01/06/360_F_462010695_PjHMk9uZ2GA5DHFQ35UAmu864Q7IwMDQ.jpg",
+      "answer": "Listopad",
+      "category": "weather"
+    },
+    {
+      "title": "December",
+      "imageSource": "https://cdn.shopify.com/s/files/1/0575/0987/1774/files/3_760389c3-b3f0-4275-ba92-c5da6c95d892.png?v=1669885804",
+      "answer": "Grudzień",
+      "category": "weather"
+    },
+
+
+
+
+
+
+
+    {    
+      "title": "Mother",
+      "imageSource": "https://www.vedantu.com/seo/content-images/f078fe4a-d5c1-4e93-a276-fe6c3918abdd.png",
+      "answer": "Matka",
+      "category": "family"
+    },
+    {    
+      "title": "Father",
+      "imageSource": "https://img.freepik.com/premium-vector/young-good-looking-father-holding-hand-walk-with-kid_97632-4135.jpg",
+      "answer": "Ojciec",
+      "category": "family"
+    },
+    {    
+      "title": "Parents",
+      "imageSource": "https://static.toiimg.com/thumb/msid-102042090,width-1280,height-720,resizemode-4/102042090.jpg",
+      "answer": "Rodzice",
+      "category": "family"
+    },
+    {    
+      "title": "Son",
+      "imageSource": "https://www.azcentral.com/gcdn/-mm-/6f023d98f508d7439fc763ab4a95d283b29165c8/c=0-44-742-463/local/-/media/2018/06/27/DetroitFreeP/DetroitFreePress/636656995577690550-GettyImages-664908578.jpg?width=660&height=373&fit=crop&format=pjpg&auto=webp",
+      "answer": "Syn",
+      "category": "family"
+    },
+    {    
+      "title": "Daughter",
+      "imageSource": "https://i.pinimg.com/originals/2d/0e/42/2d0e42aa7df79cd815b9c43d78d2479f.jpg",
+      "answer": "Córka",
+      "category": "family"
+    },
+    {    
+      "title": "Kids",
+      "imageSource": "https://kidscatchup.org.au/wp-content/uploads/2022/02/HPHWTR21_philanthropicchildrenISTOCK.jpg",
+      "answer": "Dzieci",
+      "category": "family"
+    },
+    {    
+      "title": "Siblings",
+      "imageSource": "https://www.telethonkids.org.au/contentassets/5151445bcc4d46cf8917aa3c6d3d996f/siblings-clip-art.jpg",
+      "answer": "Rodzeństwo",
+      "category": "family"
+    },
+    {    
+      "title": "Grandmother",
+      "imageSource": "https://i.pinimg.com/736x/cf/e8/e9/cfe8e98bdaeabf9bef73b129f61fdf7c.jpg",
+      "answer": "Babcia",
+      "category": "family"
+    },
+    {    
+      "title": "Grandfather",
+      "imageSource": "https://thumbs.dreamstime.com/b/grandfather-portrait-old-man-wearing-glasses-grey-hair-mustache-wearing-sweater-cartoon-grandpa-senior-man-standing-vector-86364474.jpg",
+      "answer": "Dziadek",
+      "category": "family"
+    },
+    {    
+      "title": "Granddaughter",
+      "imageSource": "https://media.istockphoto.com/id/1345064454/vector/granddaughter-hugging-his-grandmother-vector-illustration-of-a-flat-design.jpg?s=612x612&w=0&k=20&c=1r2S03bijBYylANpjg0tPBUZ1tq8-mEURXNK8VpRfN0=",
+      "answer": "Wnuczka",
+      "category": "family"
+    },
+    {    
+      "title": "Grandson",
+      "imageSource": "https://www.focusonthefamily.com/wp-content/uploads/2023/08/handing-down-your-faith-to-your-grandchild-64e3decc7984c.webp",
+      "answer": "Wnuk",
+      "category": "family"
+    },
+    {    
+      "title": "Husband",
+      "imageSource": "https://static.independent.co.uk/2022/02/02/16/iStock-1186306039%20%281%29.jpg",
+      "answer": "Mąż",
+      "category": "family"
+    },
+    {    
+      "title": "Wife",
+      "imageSource": "https://qph.cf2.quoracdn.net/main-qimg-a50fda4b3978729f729551d9f66fdfa2",
+      "answer": "Żona",
+      "category": "family"
+    },
+    {    
+      "title": "Marriage",
+      "imageSource": "https://hamiltondiocese.com/wp-content/uploads/2022/03/marriage-prep-header.png",
+      "answer": "Małżeństwo",
+      "category": "family"
+    },
+    {    
+      "title": "Aunt",
+      "imageSource": "https://ih1.redbubble.net/image.1374651712.3899/raf,750x1000,075,t,8DB3D2:e6f0370482.u2.jpg",
+      "answer": "Ciocia",
+      "category": "family"
+    },
+    {    
+      "title": "Uncle",
+      "imageSource": "https://cdn1.vectorstock.com/i/1000x1000/20/35/uncle-and-aunt-happy-family-having-good-time-vector-12602035.jpg",
+      "answer": "Wujek",
+      "category": "family"
+    },
+    {    
+      "title": "Cousin(r.m)",
+      "imageSource": "https://www.shutterstock.com/shutterstock/photos/1946347285/display_1500/stock-vector-vocabulary-flash-card-for-kids-cousins-with-picture-of-cousins-vocabulary-for-cefr-a-a-level-1946347285.jpg",
+      "answer": "Kuzyn",
+      "category": "family"
+    },
+    {    
+      "title": "Cousin(r.z)",
+      "imageSource": "https://www.shutterstock.com/shutterstock/photos/1946347285/display_1500/stock-vector-vocabulary-flash-card-for-kids-cousins-with-picture-of-cousins-vocabulary-for-cefr-a-a-level-1946347285.jpg",
+      "answer": "Kuzynka",
+      "category": "family"
+    },
+    {    
+      "title": "Family",
+      "imageSource": "https://img.freepik.com/free-vector/flat-design-family-symbol_23-2149282971.jpg?size=338&ext=jpg&ga=GA1.1.1448711260.1706313600&semt=sph",
+      "answer": "Rodzina",
+      "category": "family"
+    },
+    {    
+      "title": "Stepmother",
+      "imageSource": "https://media.istockphoto.com/id/1180744365/vector/family-of-three-parents-and-daughter.jpg?s=612x612&w=0&k=20&c=q29LOm7g7DK3eq4pSCs-HdnQ-br34BcyuH-IAzwI6ik=",
+      "answer": "Macocha",
+      "category": "family"
+    },
+    {    
+      "title": "Stepdad",
+      "imageSource": "https://download.assistivecards.com/cards/people/stepfather@2x.png",
+      "answer": "Ojczym",
+      "category": "family"
+    },
+
+
+
+
+
+
+
+
+
+    {    
+      "title": "Butterfly",
+      "imageSource": "https://media.assettype.com/outlooktraveller%2F2023-11%2Fb432d8b6-8be3-4e77-ac4f-5e054353d965%2Fshutterstock_2240293085.jpg",
+      "answer": "Motyl",
+      "category": "animals"
+    },
+    {    
+      "title": "Deer",
+      "imageSource": "https://media.cnn.com/api/v1/images/stellar/prod/230712115127-white-tailed-deer-file.jpg?c=16x9&q=h_833,w_1480,c_fill",
+      "answer": "Jeleń",
+      "category": "animals"
+    },
+    {    
+      "title": "Cow",
+      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Cow_female_black_white.jpg",
+      "answer": "Krowa",
+      "category": "animals"
+    },
+    {    
+      "title": "Sheep",
+      "imageSource": "https://cdn.britannica.com/39/95439-050-78B87F34/Adult-sheep-lambs.jpg",
+      "answer": "Owca",
+      "category": "animals"
+    },
+    {    
+      "title": "Bear",
+      "imageSource": "https://cdn.britannica.com/41/156441-050-A4424AEC/Grizzly-bear-Jasper-National-Park-Canada-Alberta.jpg",
+      "answer": "Niedźwiedź",
+      "category": "animals"
+    },
+    {    
+      "title": "Bee",
+      "imageSource": "https://img.freepik.com/free-vector/cute-bee-flying-cartoon-vector-icon-illustration-animal-nature-icon-concept-isolated-premium-vector_138676-6016.jpg",
+      "answer": "Pszczoła",
+      "category": "animals"
+    },
+    {    
+      "title": "Ant",
+      "imageSource": "https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/twinkl-ant-1_ver_1.png",
+      "answer": "Mrówka",
+      "category": "animals"
+    },
+    {    
+      "title": "Fish",
+      "imageSource": "https://images.twinkl.co.uk/tr/raw/upload/u/ux/usawiki-fish-clownfish_ver_1.jpg",
+      "answer": "Ryba",
+      "category": "animals"
+    },
+    {    
+      "title": "Frog",
+      "imageSource": "https://cdn.mos.cms.futurecdn.net/39CUYMP8vJqHAYGVzUghBX-1200-80.jpg",
+      "answer": "Żaba",
+      "category": "animals"
+    },
+    {    
+      "title": "Bunny",
+      "imageSource": "https://www.cbc.ca/kids/images/weird_wonderful_bunnies_header_update_1140.jpg",
+      "answer": "Królik",
+      "category": "animals"
+    },
+    {    
+      "title": "Cat",
+      "imageSource": "https://www.purina.co.uk/sites/default/files/2023-03/Hero%20Pedigree%20Cats.jpg",
+      "answer": "Kot",
+      "category": "animals"
+    },
+    {    
+      "title": "Chicken",
+      "imageSource": "https://cdn.britannica.com/07/183407-050-C35648B5/Chicken.jpg",
+      "answer": "Kurczak",
+      "category": "animals"
+    },
+    {    
+      "title": "Horse",
+      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/1/16/Lusitano_Hengst_%28132668445%29.jpeg",
+      "answer": "Koń",
+      "category": "animals"
+    },
+    {    
+      "title": "Mouse",
+      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/%D0%9C%D1%8B%D1%88%D1%8C_2.jpg/1200px-%D0%9C%D1%8B%D1%88%D1%8C_2.jpg",
+      "answer": "Mysz",
+      "category": "animals"
+    },
+    {    
+      "title": "Pig",
+      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/G%C3%B6ttingen_Minipig.jpg/1200px-G%C3%B6ttingen_Minipig.jpg",
+      "answer": "Świnia",
+      "category": "animals"
+    },
+    {    
+      "title": "Bird",
+      "imageSource": "https://images.pexels.com/photos/349758/hummingbird-bird-birds-349758.jpeg?cs=srgb&dl=pexels-pixabay-349758.jpg&fm=jpg",
+      "answer": "Ptak",
+      "category": "animals"
+    },
+    {    
+      "title": "Dog",
+      "imageSource": "https://www.thesprucepets.com/thmb/hxWjs7evF2hP1Fb1c1HAvRi_Rw0=/2765x0/filters:no_upscale():strip_icc()/chinese-dog-breeds-4797219-hero-2a1e9c5ed2c54d00aef75b05c5db399c.jpg",
+      "answer": "Pies",
+      "category": "animals"
+    },
+    {    
+      "title": "Goat",
+      "imageSource": "https://media.4-paws.org/a/4/8/b/a48b18270b120e60e9bd4783e9106940a2808acd/VIER%20PFOTEN_2013-07-19_024-3851x2665-1920x1329.jpg",
+      "answer": "Kozioł",
+      "category": "animals"
+    },
+    {    
+      "title": "Rat",
+      "imageSource": "https://images.aeonmedia.co/images/35cdcbdf-91a3-4d59-a068-e451e7c3c07d/essay-gettyimages-1149969364.jpg?width=1200&quality=75&format=auto",
+      "answer": "Szczur",
+      "category": "animals"
+    },
+    {    
+      "title": "Camel",
+      "imageSource": "https://cdn.britannica.com/96/152296-050-BC95629B/Arabian-dromedary-camel-calf.jpg",
+      "answer": "Wielbłąd",
+      "category": "animals"
+    },
+    {    
+      "title": "Swan",
+      "imageSource": "https://a-z-animals.com/media/swan-3.jpg",
+      "answer": "Łabędź",
+      "category": "animals"
+    },
+    {    
+      "title": "Turtle",
+      "imageSource": "https://www.ucf.edu/wp-content/blogs.dir/20/files/2021/02/juvenile_green_sea_turtle_for_web.jpg",
+      "answer": "Żółw",
+      "category": "animals"
+    },
+    {    
+      "title": "Parrot",
+      "imageSource": "https://as2.ftcdn.net/v2/jpg/00/43/06/21/1000_F_43062103_9O3g0hNHpKfugKIqhBV6HS7feW71lfDl.jpg",
+      "answer": "Papuga",
+      "category": "animals"
+    },
+    {    
+      "title": "Whale",
+      "imageSource": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwSnhhpE_FpHsl_vNMuIL2_nHnvTIbwbqjh3OKZA3Txas0px1KiqsZnUla7E7FXUn5Vaw&usqp=CAU",
+      "answer": "Wieloryb",
+      "category": "animals"
+    },
+    {    
+      "title": "Elephant",
+      "imageSource": "https://cdn.mos.cms.futurecdn.net/uiCrUgVCf64TzEdTM8x9aD-1200-80.jpg",
+      "answer": "Słoń",
+      "category": "animals"
+    },
+    {    
+      "title": "Fox",
+      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/3/30/Vulpes_vulpes_ssp_fulvus.jpg",
+      "answer": "Lis",
+      "category": "animals"
+    },
+    {    
+      "title": "Turkey",
+      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Gall-dindi.jpg/800px-Gall-dindi.jpg",
+      "answer": "Indyk",
+      "category": "animals"
     }
   ]
 }

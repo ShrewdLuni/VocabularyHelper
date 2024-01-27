@@ -40,7 +40,7 @@ function App() {
     //word results : {key : {number : (0.5,1,2,3), streak:(0,1,2)}}
     let tempData : object[] = [];
     for (let i = 0; i < jsonData.length; i++) {
-      let number = 2//get number by key(data.title)
+      let number = 1//get number by key(data.title)
       while(number > 0){
         tempData.push(jsonData[i]);
         number -= 1;

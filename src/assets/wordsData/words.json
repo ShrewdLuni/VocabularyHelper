@@ -7,35 +7,233 @@
       "category": "food"
     },
     {    
-      "title": "banana",
+      "title": "Banana",
       "imageSource": "https://images.everydayhealth.com/images/diet-nutrition/all-about-bananas-nutrition-facts-health-benefits-recipes-and-more-rm-722x406.jpg",
       "answer": "Banan",
       "category": "food"
     },
+    {    
+      "title": "Coffe",
+      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Latte_and_dark_coffee.jpg",
+      "answer": "Kawa",
+      "category": "food"
+    },
+    {    
+      "title": "Tea",
+      "imageSource": "https://www.allrecipes.com/thmb/NFy4q5C38-ivZnk4nXGuiWgqUEc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Why-Does-Tea-Make-You-Nauseated-4x3-11186feb90ad4a04a7516121d955947a.png",
+      "answer": "Herbata",
+      "category": "food"
+    },
+    {    
+      "title": "Water",
+      "imageSource": "https://content.health.harvard.edu/wp-content/uploads/2023/07/b8a1309a-ba53-48c7-bca3-9c36aab2338a.jpg",
+      "answer": "Woda",
+      "category": "food"
+    },
+    {    
+      "title": "Milk",
+      "imageSource": "https://downshiftology.com/wp-content/uploads/2022/10/Almond-Milk-Recipe-22-8.jpg",
+      "answer": "Mleko",
+      "category": "food"
+    },
 
     {    
-      "title": "family",
-      "imageSource": "https://cdn.britannica.com/22/187222-050-07B17FB6/apples-on-a-tree-branch.jpg",
-      "answer": "family",
-      "category": "family"
+      "title": "Bread",
+      "imageSource": "https://houseofnasheats.com/wp-content/uploads/2022/02/French-Bread-1.jpg",
+      "answer": "Chleb",
+      "category": "food"
+    },
+    {    
+      "title": "Pear",
+      "imageSource": "https://im.pluckk.in/unsafe/1200x0/uploads/812-fruits-img-app-1600x1200-1200--1200px-16.jpg",
+      "answer": "Gruszka",
+      "category": "food"
+    },
+    {    
+      "title": "Plum",
+      "imageSource": "https://chefsmandala.com/wp-content/uploads/2018/03/Plum.jpg",
+      "answer": "Śliwka",
+      "category": "food"
+    },
+    {    
+      "title": "Cherry",
+      "imageSource": "https://www.100daysofrealfood.com/wp-content/uploads/2023/07/shutterstock_1828768448.jpg",
+      "answer": "Wiśnia",
+      "category": "food"
+    },
+    {    
+      "title": "Raspberry",
+      "imageSource": "https://www.yates.com.au/media/plants/fruit-and-citrus/pr-tn-fruit-raspberry.jpg?mode=crop&anchor=center&widthratio=1.5&height=576&format=jpg",
+      "answer": "Malina",
+      "category": "food"
+    },
+    {    
+      "title": "Orange",
+      "imageSource": "https://www.allrecipes.com/thmb/y_uvjwXWAuD6T0RxaS19jFvZyFU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1205638014-2000-d0fbf9170f2d43eeb046f56eec65319c.jpg",
+      "answer": "Pomarańcza",
+      "category": "food"
+    },
+    {    
+      "title": "Strawberry",
+      "imageSource": "https://healthyfamilyproject.com/wp-content/uploads/2020/05/Strawberries-background.jpg",
+      "answer": "Truskawka",
+      "category": "food"
+    },
+    {    
+      "title": "Carrot",
+      "imageSource": "https://blog-images-1.pharmeasy.in/blog/production/wp-content/uploads/2021/04/23175719/shutterstock_440493100-1.jpg",
+      "answer": "Marchewka",
+      "category": "food"
+    },
+    {    
+      "title": "Potato",
+      "imageSource": "https://cdn.mos.cms.futurecdn.net/iC7HBvohbJqExqvbKcV3pP-1200-80.jpg",
+      "answer": "Ziemniaki",
+      "category": "food"
+    },
+    {    
+      "title": "Cabbage",
+      "imageSource": "https://rol-spec.sklep.pl/environment/cache/images/0_0_productGfx_351/Gaja_WiOM-1.jpg",
+      "answer": "Kapusta",
+      "category": "food"
+    },
+    {    
+      "title": "Tomato",
+      "imageSource": "https://media.post.rvohealth.io/wp-content/uploads/2020/09/tomatoes-1200x628-facebook-1200x628.jpg",
+      "answer": "Pomidor",
+      "category": "food"
+    },
+    {    
+      "title": "Cucumber",
+      "imageSource": "https://www.gardenia.net/wp-content/uploads/2023/05/cucumis-sativus-780x520.webp",
+      "answer": "Ogórek",
+      "category": "food"
+    },
+    {    
+      "title": "Onion",
+      "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Onion_on_White.JPG/1200px-Onion_on_White.JPG",
+      "answer": "Cebula",
+      "category": "food"
+    },
+    {    
+      "title": "Cheese",
+      "imageSource": "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/healthiest-cheese-1296x728-swiss.jpg?w=1155&h=1528",
+      "answer": "Ser",
+      "category": "food"
+    },
+    {    
+      "title": "Yogurt",
+      "imageSource": "https://www.daringgourmet.com/wp-content/uploads/2021/01/How-to-Make-Yogurt-7.jpg",
+      "answer": "Jogurt",
+      "category": "food"
+    },
+    {    
+      "title": "Butter",
+      "imageSource": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2018%2F02%2F13%2Ffield-image-sticks-of-butter-hero-getty-2000.jpg&q=60",
+      "answer": "Masło",
+      "category": "food"
+    },
+    {    
+      "title": "Pepper",
+      "imageSource": "https://images.theconversation.com/files/455247/original/file-20220330-5922-am025n.jpg?ixlib=rb-1.1.0&rect=0%2C28%2C4744%2C3130&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
+      "answer": "Pieprz",
+      "category": "food"
+    },
+    {    
+      "title": "Rice",
+      "imageSource": "https://thewanderlustkitchen.com/wp-content/uploads/2013/12/Perfect-White-Rice-Recipe-17-2.jpg",
+      "answer": "Ryż",
+      "category": "food"
+    },
+    {    
+      "title": "Egg",
+      "imageSource": "https://bakerpedia.com/wp-content/uploads/2020/03/Egg_baking-ingredients-e1584136402126.jpg",
+      "answer": "Jajko",
+      "category": "food"
+    },
+    {    
+      "title": "Grapes",
+      "imageSource": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzsN831jfZinayUAVnWWdCWXPpRIlYOyx_8Q&usqp=CAU",
+      "answer": "Winogrona",
+      "category": "food"
+    },
+    {    
+      "title": "Fork",
+      "imageSource": "https://www.webstaurantstore.com/images/products/extra_large/369282/2405763.jpg",
+      "answer": "Widelec",
+      "category": "food"
+    },
+    {    
+      "title": "Spoon",
+      "imageSource": "https://cdn.speedsize.com/7ea397ab-9451-4e4a-a8e0-a877fed40d95/https://www.arcos.com/media/catalog/product/cache/24a8e40f675dfd05d85764b789ded524/7/0/701800_03.jpg",
+      "answer": "Łyżka",
+      "category": "food"
     },    
     {    
-      "title": "family2",
-      "imageSource": "https://cdn.britannica.com/22/187222-050-07B17FB6/apples-on-a-tree-branch.jpg",
-      "answer": "family1",
-      "category": "family"
-    },
+      "title": "Knife",
+      "imageSource": "https://knifeaid.com/cdn/shop/articles/anatomy_of_a_knife.jpg?v=1552409637",
+      "answer": "Nóż",
+      "category": "food"
+    },    
     {    
-      "title": "health",
-      "imageSource": "https://cdn.britannica.com/22/187222-050-07B17FB6/apples-on-a-tree-branch.jpg",
-      "answer": "health",
-      "category": "health"
-    },
+      "title": "Mug",
+      "imageSource": "https://johnjulian.co.uk/cdn/shop/products/Simple-Mug-Plain-Porcelain-scaled.jpg?v=1667233172",
+      "answer": "Kubek",
+      "category": "food"
+    },    
     {    
-      "title": "health1",
-      "imageSource": "https://cdn.britannica.com/22/187222-050-07B17FB6/apples-on-a-tree-branch.jpg",
-      "answer": "health1",
-      "category": "health"
+      "title": "Pot",
+      "imageSource": "https://m.media-amazon.com/images/I/71+RzrqvAKL.jpg",
+      "answer": "Garnek",
+      "category": "food"
+    },    
+    {    
+      "title": "Cup",
+      "imageSource": "https://m.media-amazon.com/images/I/61JlsocArYL._AC_UF1000,1000_QL80_.jpg",
+      "answer": "Filiżanka",
+      "category": "food"
+    },    
+    {    
+      "title": "Jar",
+      "imageSource": "https://www.ikea.com/ca/en/images/products/korken-jar-with-lid-clear-glass__0713739_pe729738_s5.jpg",
+      "answer": "Słoik",
+      "category": "food"
+    },    
+    {    
+      "title": "Pan",
+      "imageSource": "https://marieclairehome.com.ua/assets/images/products/1116/skovoridka-marie-claire-grona-frying-pan.jpg",
+      "answer": "Patelnia",
+      "category": "food"
+    },    
+    {    
+      "title": "Teapot",
+      "imageSource": "https://d27pcll2dx97vv.cloudfront.net/info/wp-content/uploads/2022/04/Shuiping.jpg",
+      "answer": "Czajnik",
+      "category": "food"
+    },    
+    {    
+      "title": "Sweet",
+      "imageSource": "https://cdn.aarp.net/content/dam/aarp/health/healthy-living/2023/01/1140-sweets-and-candy.jpg",
+      "answer": "Słodki",
+      "category": "food"
+    },    
+    {    
+      "title": "Salty",
+      "imageSource": "https://images.services.kitchenstories.io/IffA0S-DM5093VWytXuQthW2aPM=/3840x0/filters:quality(85)/images.kitchenstories.io/wagtailOriginalImages/A1267-title-image.jpg",
+      "answer": "Słony",
+      "category": "food"
+    },    
+    {    
+      "title": "Spicy",
+      "imageSource": "https://www.eatingwell.com/thmb/jcWMLvu8vuN2Z1g7fo89vU_fGLo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/6-ways-to-salvage-dishes-that-are-too-spicy-4ba03eb08fe84694be8d5f37739486ff.jpg",
+      "answer": "Ostry",
+      "category": "food"
+    },    
+    {    
+      "title": "Lemon",
+      "imageSource": "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/lemon-health-benefits-1296x728-feature.jpg?w=1155&h=1528",
+      "answer": "Cytryna",
+      "category": "food"
     }
   ]
 }

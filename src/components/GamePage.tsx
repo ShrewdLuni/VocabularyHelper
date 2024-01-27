@@ -19,10 +19,13 @@ export const GamePage = ({onEnd, data, gameModeType} : GamePageProps) => {
   const [index, setIndex] = useState(0);
   const [isEnded, setIsEnded] = useState(false);
 
+  const [right,setRight] = useState(0);
+  const [wrong,setWrong] = useState(0);
+
   const [answerOptions, setAnswerOptions] = useState<number[]>([index,index,index]);
 
   useEffect(() => {
-    getNames();
+    getNames(0);
   }, [])
 
   function handleInput(event : any) {
@@ -34,12 +37,16 @@ export const GamePage = ({onEnd, data, gameModeType} : GamePageProps) => {
 
   function checkAnswer(userAnswer : string) {
     const answer = data[index].answer + " ";
-    const result = (userAnswer === answer);
+    const result = (userAnswer.toLocaleLowerCase() === answer.toLocaleLowerCase());
     
-    if(result)
+    if(result){
       toast.success("", {position: "top-left", theme: "dark",autoClose: 5000});
-    else
+      setRight(right + 1);
+    }
+    else{
       toast.error(`${answer}✅ ,not: ${userAnswer}❌`, {position: "top-left", theme: "dark",autoClose: 15000});
+      setWrong(wrong + 1);
+    }
 
     if(index >= data.length-1)
     {
@@ -57,14 +64,14 @@ export const GamePage = ({onEnd, data, gameModeType} : GamePageProps) => {
       //else{
       //   word results.update([key : data[index].title] : {number : 1, streak: 0})
       //}
-      getNames();
+      getNames(1);
       setIndex(index + 1);
       setValue("");
     }
   }
 
-  function getNames(){
-    const tempData : number[] = [Math.floor(Math.random()*data.length), index+1, Math.floor(Math.random()*data.length)]
+  function getNames(extra : number){
+    const tempData : number[] = [Math.floor(Math.random()*data.length), index+extra, Math.floor(Math.random()*data.length)]
     for (let i = tempData.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [tempData[i], tempData[j]] = [tempData[j], tempData[i]];
@@ -96,6 +103,11 @@ export const GamePage = ({onEnd, data, gameModeType} : GamePageProps) => {
           </div>
         : <div>
             Game Over
+            <div className="flex gap-x-3 items-center justify-center my-2">
+              <p>✅:{right}</p>
+              <p>❌:{wrong}</p>
+            </div>
+            <p>{Math.ceil((right / (wrong + right)) * 100)}%</p>
             <Button className={"bg-rose-500 text-white w-full h-full mt-4"} variant="ghost" onClick={() => {onEnd();setIsEnded(false)}}>Exit</Button>
           </div>
         }

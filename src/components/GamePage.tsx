@@ -49,8 +49,8 @@ export const GamePage = ({onEnd, data, gameModeType} : GamePageProps) => {
       setIsLastWrong(true);
       setTimeout(() => {
         setIsLastWrong(false);
-      }, 300);
-      toast.error(`${answer}✅ ,not: ${userAnswer}❌`, {position: "top-left", theme: "dark",autoClose: 15000});
+      }, 100);
+      toast.error(`${answer}✅ ,not: ${userAnswer}❌`, {position: "bottom-center", theme: "dark",autoClose: 15000});
       setWrong(wrong + 1);
     }
 

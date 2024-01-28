@@ -50,7 +50,7 @@ export const GamePage = ({onEnd, data, gameModeType} : GamePageProps) => {
       setTimeout(() => {
         setIsLastWrong(false);
       }, 100);
-      toast.error(`${answer}✅ ,not: ${userAnswer}❌`, {position: "bottom-center", theme: "dark",autoClose: 15000});
+      toast.error(`${answer}✅ ,not: ${userAnswer}❌`, {position: "top-left", theme: "dark",autoClose: 15000});
       setWrong(wrong + 1);
     }
 

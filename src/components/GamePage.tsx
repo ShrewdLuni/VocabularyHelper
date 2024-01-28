@@ -19,6 +19,8 @@ export const GamePage = ({onEnd, data, gameModeType} : GamePageProps) => {
   const [index, setIndex] = useState(0);
   const [isEnded, setIsEnded] = useState(false);
 
+  const [isLastWrong,setIsLastWrong] = useState(false);
+
   const [right,setRight] = useState(0);
   const [wrong,setWrong] = useState(0);
 
@@ -44,6 +46,10 @@ export const GamePage = ({onEnd, data, gameModeType} : GamePageProps) => {
       setRight(right + 1);
     }
     else{
+      setIsLastWrong(true);
+      setTimeout(() => {
+        setIsLastWrong(false);
+      }, 300);
       toast.error(`${answer}✅ ,not: ${userAnswer}❌`, {position: "top-left", theme: "dark",autoClose: 15000});
       setWrong(wrong + 1);
     }
@@ -81,11 +87,11 @@ export const GamePage = ({onEnd, data, gameModeType} : GamePageProps) => {
   }
 
 	return (
-    <div className={cn("text-center bg-gray-900 h-screen flex flex-col justify-center items-center text-white px-6")}>
+    <div className={cn("text-center h-screen flex flex-col justify-center items-center text-white px-6",isLastWrong ? "bg-rose-600": "bg-gray-900" )}>
       <div> 
         {!isEnded
         ? <div>
-            <div className="border-solid border-4 border-green-600 rounded-xl">
+            <div className="border-solid border-4 border-green-600 rounded-xl bg-gray-900">
               <img className="object-cover h-[50vh] rounded-t-md" src={data[index].imageSource}/>
               <p className="border-solid border-t-[6px] border-green-600 min-w-full min-h-full">{data[index].title}</p>
             </div>

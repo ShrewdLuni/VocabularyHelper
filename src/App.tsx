@@ -19,7 +19,11 @@ function App() {
     "clothes":false,
     "health":false,
     "weather":false,
-    "location":false,
+    "animals":false,
+    "people":false,
+    "nature":false,
+    "city":false,
+    "body":false,
     "ALL" : false,
   });
 
@@ -32,6 +36,10 @@ function App() {
       "health":state,
       "weather":state,
       "animals":state,
+      "people":state,
+      "nature":state,
+      "city":state,
+      "body":state,
       "ALL":state})
   }
 

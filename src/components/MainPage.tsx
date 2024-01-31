@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import { GameModes } from "./GameModes"
 import { Button } from "./ui/button"
+import { Input } from "./ui/input";
 
 interface MainPageProps {
   onPlay: any;
@@ -9,9 +10,10 @@ interface MainPageProps {
   setAllCategories: any;
   gameMode : number;
   setGameMode : any;
+  setWordsLimit: any;
 }
 //make up for
-export const MainPage = ({onPlay, categories,updateCategories,setAllCategories,gameMode,setGameMode} : MainPageProps) => {
+export const MainPage = ({onPlay, categories,updateCategories,setAllCategories,gameMode,setGameMode,setWordsLimit} : MainPageProps) => {
 	return (
     <div className="text-center bg-gray-900 h-screen flex flex-col justify-center items-center">
       <div className="grid grid-cols-4 gap-4 lg:gap-6 w-[90%] lg:w-[50%]">
@@ -29,6 +31,7 @@ export const MainPage = ({onPlay, categories,updateCategories,setAllCategories,g
         <Button className={cn("bg-rose-500 text-white w-full h-full truncate",categories["ALL"] && "border-solid border-green-500 border-2 p-[2px] lg:border-4 lg:p-[4px]")} variant="ghost" onClick={() => {setAllCategories(!categories["ALL"])}}>{"All🌌"}</Button>
       </div>
       <GameModes gameMode={gameMode} setGameMode={setGameMode}/>
+      <Input onChange={(event) => setWordsLimit(event.target.value)} placeholder="Enter Words Limit" className="mt-[2%] bg-gray-800 border-solid border-2 border-purple-500 rounded-2xl text-center text-white focus-visible:ring-0 focus-visible:ring-transparent focus-visible:ring-offset-0 w-[90%] lg:w-[35%]"/>
       <Button className="bg-rose-500 text-white mt-[15%] lg:mt-[5%] " variant="ghost" onClick={(categories) => (onPlay(categories))}>
         Play
       </Button>

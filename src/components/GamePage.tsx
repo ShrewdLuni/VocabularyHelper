@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 
 import { Input } from "@/components/ui/input";
 import { Button } from "./ui/button";
+import { Progress } from "@/components/ui/progress"
+
 
 import { cn } from "@/lib/utils";
 
@@ -12,9 +14,10 @@ interface GamePageProps {
   onEnd: any;
   data: any;
   gameModeType: boolean;
+  wordsLimit: number;
 }
 
-export const GamePage = ({onEnd, data, gameModeType} : GamePageProps) => {
+export const GamePage = ({onEnd, data, gameModeType, wordsLimit} : GamePageProps) => {
   const [value, setValue] = useState("");
   const [index, setIndex] = useState(0);
   const [isEnded, setIsEnded] = useState(false);
@@ -25,6 +28,8 @@ export const GamePage = ({onEnd, data, gameModeType} : GamePageProps) => {
   const [wrong,setWrong] = useState(0);
 
   const [answerOptions, setAnswerOptions] = useState<number[]>([index,index,index]);
+
+  let limit = wordsLimit == -1 ? data.length-1 : wordsLimit > data.length-1 ? data.length-1 : isNaN(wordsLimit) ? data.length -1: wordsLimit - 1;
 
   useEffect(() => {
     getNames(0);
@@ -53,8 +58,7 @@ export const GamePage = ({onEnd, data, gameModeType} : GamePageProps) => {
       toast.error(`${answer}✅ ,not: ${userAnswer}❌`, {position: "top-left", theme: "dark",autoClose: 15000});
       setWrong(wrong + 1);
     }
-
-    if(index >= data.length-1)
+    if(index >= limit)
     {
       setIsEnded(true);
     }
@@ -66,6 +70,7 @@ export const GamePage = ({onEnd, data, gameModeType} : GamePageProps) => {
       //else{
       //   word results.update([key : data[index].title] : {number : 1, streak: 0})
       //}
+      console.log((index + 1) / (limit + 1) * 100);
       getNames(1);
       setIndex(index + 1);
       setValue("");
@@ -73,10 +78,10 @@ export const GamePage = ({onEnd, data, gameModeType} : GamePageProps) => {
   }
 
   function getNames(extra : number){
-    let one = Math.floor(Math.random()*data.length);
-    let two = Math.floor(Math.random()*data.length);
+    let one = Math.floor(Math.random()*limit);
+    let two = Math.floor(Math.random()*limit);
     while(one == two){
-      two = Math.floor(Math.random()*data.length);
+      two = Math.floor(Math.random()*limit);
     }
     const tempData : number[] = [one, index+extra, two]
     for (let i = tempData.length - 1; i > 0; i--) {
@@ -91,6 +96,8 @@ export const GamePage = ({onEnd, data, gameModeType} : GamePageProps) => {
       <div> 
         {!isEnded
         ? <div>
+            <p className="mb-2">{index + 1} / {limit + 1}</p>
+            <Progress value={(index + 1) / (limit + 1) * 100} className="mb-3"/>
             <div className="border-solid border-4 border-green-600 rounded-xl bg-gray-900">
               <img className="object-cover h-[50vh] rounded-t-md" src={data[index].imageSource}/>
               <p className="border-solid border-t-[6px] border-green-600 min-w-full min-h-full">{data[index].title}</p>

@@ -29,7 +29,7 @@ export const GamePage = ({onEnd, data, gameModeType, wordsLimit} : GamePageProps
 
   const [answerOptions, setAnswerOptions] = useState<number[]>([index,index,index]);
 
-  let limit = wordsLimit == -1 ? data.length-1 : wordsLimit > data.length-1 ? data.length-1 : isNaN(wordsLimit) ? data.length -1: wordsLimit - 1;
+  let limit = wordsLimit < 5 ? data.length-1 : wordsLimit > data.length-1 ? data.length-1 : isNaN(wordsLimit) ? data.length -1: wordsLimit - 1;
 
   useEffect(() => {
     getNames(0);

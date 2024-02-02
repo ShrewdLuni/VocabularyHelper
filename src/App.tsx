@@ -11,7 +11,7 @@ interface CategoriesList {
 function App() {
   const [playing, setPlaying] = useState(false);
   const [gameMode, setGameMode] = useState(0);
-  const [wordsLimit,setWordsLimit] = useState(20);
+  const [wordsLimit,setWordsLimit] = useState(-1  );
   const [categories,setCategories] = useState<CategoriesList>(
   {
     "food":false,

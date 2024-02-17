@@ -1537,11 +1537,1083 @@
       "answer": "Studiować",
       "category": "routine"
     },
+
+
+
+
     {    
       "title": "To listen",
       "imageSource": "https://assets-global.website-files.com/5fac161927bf86485ba43fd0/64705e1acd68dc43af391026_Blog-Cover-2022_03_How-to-Listen-to-Podcasts-(On-Any-Device-For-Free)-(1).png",
       "answer": "Słuchać",
       "category": "routine"
+    },
+    {
+      "title": "jesc",
+      "imageSource": "",
+      "answer": "zjesc",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "pic",
+      "imageSource": "",
+      "answer": "wypic",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "myc",
+      "imageSource": "",
+      "answer": "umyc",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "jechac",
+      "imageSource": "",
+      "answer": "pojechac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "wyjezdzac",
+      "imageSource": "",
+      "answer": "wyjechac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "wracac",
+      "imageSource": "",
+      "answer": "wrocic",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "isc",
+      "imageSource": "",
+      "answer": "pojsc",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "chodzic",
+      "imageSource": "",
+      "answer": "pojsc",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "ogladac",
+      "imageSource": "",
+      "answer": "obejrzec",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "robic",
+      "imageSource": "",
+      "answer": "zrobic",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "przygotowywac",
+      "imageSource": "",
+      "answer": "przygotowac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "brac",
+      "imageSource": "",
+      "answer": "wziac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "czytac",
+      "imageSource": "",
+      "answer": "przeczytac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "pisac",
+      "imageSource": "",
+      "answer": "napisac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "odrabiac",
+      "imageSource": "",
+      "answer": "odrobic",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "gotowac",
+      "imageSource": "",
+      "answer": "ugotowac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "smazyc",
+      "imageSource": "",
+      "answer": "usmazyc",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "piec",
+      "imageSource": "",
+      "answer": "upiec",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "ubierac",
+      "imageSource": "",
+      "answer": "ubrac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "budowac",
+      "imageSource": "",
+      "answer": "zbudowac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "prasowac",
+      "imageSource": "",
+      "answer": "wyprasowac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "sprzatac",
+      "imageSource": "",
+      "answer": "posprzatac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "malowac",
+      "imageSource": "",
+      "answer": "namalowac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "powtarzac",
+      "imageSource": "",
+      "answer": "powtorzyc",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "uczyc",
+      "imageSource": "",
+      "answer": "nauczyc",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "budzic",
+      "imageSource": "",
+      "answer": "obudzic",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "wstawac",
+      "imageSource": "",
+      "answer": "wstac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "plynac",
+      "imageSource": "",
+      "answer": "poplynac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "leciec",
+      "imageSource": "",
+      "answer": "poleciec",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "spotykac",
+      "imageSource": "",
+      "answer": "spotkac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "umawiac",
+      "imageSource": "",
+      "answer": "umowic",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "spedzac",
+      "imageSource": "",
+      "answer": "spedzic",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "dawac",
+      "imageSource": "",
+      "answer": "dac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "dostawac",
+      "imageSource": "",
+      "answer": "dostac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "zarabiac",
+      "imageSource": "",
+      "answer": "zarobic",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "wydawac",
+      "imageSource": "",
+      "answer": "wydac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "oszczedzac",
+      "imageSource": "",
+      "answer": "oszczedzic",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "pukac",
+      "imageSource": "",
+      "answer": "zapukac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "wysylac",
+      "imageSource": "",
+      "answer": "wyslac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "odbierac",
+      "imageSource": "",
+      "answer": "odebrac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "pozyczac",
+      "imageSource": "",
+      "answer": "pozyczyc",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "oddawac",
+      "imageSource": "",
+      "answer": "oddac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "poznawac",
+      "imageSource": "",
+      "answer": "poznac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "zaczynac",
+      "imageSource": "",
+      "answer": "zaczac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "organizowac",
+      "imageSource": "",
+      "answer": "zorganizowac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "bawic",
+      "imageSource": "",
+      "answer": "pobawic",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "cieszyc",
+      "imageSource": "",
+      "answer": "ucieszyc",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "chorowac",
+      "imageSource": "",
+      "answer": "zachorowac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "zdrowiec",
+      "imageSource": "",
+      "answer": "wyzdrowiec",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "odwiedzac",
+      "imageSource": "",
+      "answer": "odwiedzic",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "interesowac",
+      "imageSource": "",
+      "answer": "zainteresowac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "meczyc",
+      "imageSource": "",
+      "answer": "zmeczyc",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "odpoczywac",
+      "imageSource": "",
+      "answer": "odpoczac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "znikac",
+      "imageSource": "",
+      "answer": "zniknac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "zamykac",
+      "imageSource": "",
+      "answer": "zamknac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "otwierac",
+      "imageSource": "",
+      "answer": "otworzyc",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "usuwac",
+      "imageSource": "",
+      "answer": "usunac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "zasypiac",
+      "imageSource": "",
+      "answer": "zasnac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "spozniac",
+      "imageSource": "",
+      "answer": "spoznic",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "tanczyc",
+      "imageSource": "",
+      "answer": "zatanczyc",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "zdawac",
+      "imageSource": "",
+      "answer": "zdac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "biec",
+      "imageSource": "",
+      "answer": "pobiec",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "grac",
+      "imageSource": "",
+      "answer": "zagrac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "czekac",
+      "imageSource": "",
+      "answer": "poczekac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "kupowac",
+      "imageSource": "",
+      "answer": "kupic",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "mowic",
+      "imageSource": "",
+      "answer": "powiedziec",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "sluchac",
+      "imageSource": "",
+      "answer": "posluchac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "rozmawiac",
+      "imageSource": "",
+      "answer": "poroznawiac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "widziec",
+      "imageSource": "",
+      "answer": "zobaczyc",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "wiedziec",
+      "imageSource": "",
+      "answer": "dowiedziec",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "wygrywac",
+      "imageSource": "",
+      "answer": "wygrac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "rozwodzic",
+      "imageSource": "",
+      "answer": "rozwiesc",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "oswiadczac",
+      "imageSource": "",
+      "answer": "oswiadczyc",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "krzyczec",
+      "imageSource": "",
+      "answer": "krzyknac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "klocic",
+      "imageSource": "",
+      "answer": "poklocic",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "plakac",
+      "imageSource": "",
+      "answer": "rozplakac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "kontaktowac",
+      "imageSource": "",
+      "answer": "skontaktowac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "dzwonic",
+      "imageSource": "",
+      "answer": "zadzwonic",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "stresowac",
+      "imageSource": "",
+      "answer": "zestresowac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "zenic",
+      "imageSource": "",
+      "answer": "ozenic",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "witac",
+      "imageSource": "",
+      "answer": "przywitac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "rodzic",
+      "imageSource": "",
+      "answer": "urodzic",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "zostawiac",
+      "imageSource": "",
+      "answer": "zostawic",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "zmieniac",
+      "imageSource": "",
+      "answer": "zmienic",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "konczyc",
+      "imageSource": "",
+      "answer": "skonczyc",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "spiewac",
+      "imageSource": "",
+      "answer": "zaspiewac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "przynosic",
+      "imageSource": "",
+      "answer": "przyniesc",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "nosic",
+      "imageSource": "",
+      "answer": "niesc",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "prezentowac",
+      "imageSource": "",
+      "answer": "zaprezentowac",
+      "category": "pairsFirst"
+    },
+    {
+      "title": "zjesc",
+      "imageSource": "",
+      "answer": "jesc",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "wypic",
+      "imageSource": "",
+      "answer": "pic",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "umyc",
+      "imageSource": "",
+      "answer": "myc",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "pojechac",
+      "imageSource": "",
+      "answer": "jechac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "wyjechac",
+      "imageSource": "",
+      "answer": "wyjezdzac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "wrocic",
+      "imageSource": "",
+      "answer": "wracac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "pojsc",
+      "imageSource": "",
+      "answer": "isc",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "pojsc",
+      "imageSource": "",
+      "answer": "chodzic",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "obejrzec",
+      "imageSource": "",
+      "answer": "ogladac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "zrobic",
+      "imageSource": "",
+      "answer": "robic",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "przygotowac",
+      "imageSource": "",
+      "answer": "przygotowywac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "wziac",
+      "imageSource": "",
+      "answer": "brac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "przeczytac",
+      "imageSource": "",
+      "answer": "czytac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "napisac",
+      "imageSource": "",
+      "answer": "pisac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "odrobic",
+      "imageSource": "",
+      "answer": "odrabiac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "ugotowac",
+      "imageSource": "",
+      "answer": "gotowac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "usmazyc",
+      "imageSource": "",
+      "answer": "smazyc",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "upiec",
+      "imageSource": "",
+      "answer": "piec",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "ubrac",
+      "imageSource": "",
+      "answer": "ubierac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "zbudowac",
+      "imageSource": "",
+      "answer": "budowac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "wyprasowac",
+      "imageSource": "",
+      "answer": "prasowac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "posprzatac",
+      "imageSource": "",
+      "answer": "sprzatac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "namalowac",
+      "imageSource": "",
+      "answer": "malowac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "powtorzyc",
+      "imageSource": "",
+      "answer": "powtarzac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "nauczyc",
+      "imageSource": "",
+      "answer": "uczyc",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "obudzic",
+      "imageSource": "",
+      "answer": "budzic",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "wstac",
+      "imageSource": "",
+      "answer": "wstawac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "poplynac",
+      "imageSource": "",
+      "answer": "plynac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "poleciec",
+      "imageSource": "",
+      "answer": "leciec",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "spotkac",
+      "imageSource": "",
+      "answer": "spotykac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "umowic",
+      "imageSource": "",
+      "answer": "umawiac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "spedzic",
+      "imageSource": "",
+      "answer": "spedzac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "dac",
+      "imageSource": "",
+      "answer": "dawac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "dostac",
+      "imageSource": "",
+      "answer": "dostawac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "zarobic",
+      "imageSource": "",
+      "answer": "zarabiac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "wydac",
+      "imageSource": "",
+      "answer": "wydawac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "oszczedzic",
+      "imageSource": "",
+      "answer": "oszczedzac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "zapukac",
+      "imageSource": "",
+      "answer": "pukac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "wyslac",
+      "imageSource": "",
+      "answer": "wysylac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "odebrac",
+      "imageSource": "",
+      "answer": "odbierac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "pozyczyc",
+      "imageSource": "",
+      "answer": "pozyczac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "oddac",
+      "imageSource": "",
+      "answer": "oddawac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "poznac",
+      "imageSource": "",
+      "answer": "poznawac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "zaczac",
+      "imageSource": "",
+      "answer": "zaczynac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "zorganizowac",
+      "imageSource": "",
+      "answer": "organizowac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "pobawic",
+      "imageSource": "",
+      "answer": "bawic",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "ucieszyc",
+      "imageSource": "",
+      "answer": "cieszyc",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "zachorowac",
+      "imageSource": "",
+      "answer": "chorowac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "wyzdrowiec",
+      "imageSource": "",
+      "answer": "zdrowiec",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "odwiedzic",
+      "imageSource": "",
+      "answer": "odwiedzac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "zainteresowac",
+      "imageSource": "",
+      "answer": "interesowac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "zmeczyc",
+      "imageSource": "",
+      "answer": "meczyc",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "odpoczac",
+      "imageSource": "",
+      "answer": "odpoczywac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "zniknac",
+      "imageSource": "",
+      "answer": "znikac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "zamknac",
+      "imageSource": "",
+      "answer": "zamykac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "otworzyc",
+      "imageSource": "",
+      "answer": "otwierac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "usunac",
+      "imageSource": "",
+      "answer": "usuwac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "zasnac",
+      "imageSource": "",
+      "answer": "zasypiac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "spoznic",
+      "imageSource": "",
+      "answer": "spozniac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "zatanczyc",
+      "imageSource": "",
+      "answer": "tanczyc",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "zdac",
+      "imageSource": "",
+      "answer": "zdawac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "pobiec",
+      "imageSource": "",
+      "answer": "biec",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "zagrac",
+      "imageSource": "",
+      "answer": "grac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "poczekac",
+      "imageSource": "",
+      "answer": "czekac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "kupic",
+      "imageSource": "",
+      "answer": "kupowac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "powiedziec",
+      "imageSource": "",
+      "answer": "mowic",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "posluchac",
+      "imageSource": "",
+      "answer": "sluchac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "poroznawiac",
+      "imageSource": "",
+      "answer": "rozmawiac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "zobaczyc",
+      "imageSource": "",
+      "answer": "widziec",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "dowiedziec",
+      "imageSource": "",
+      "answer": "wiedziec",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "wygrac",
+      "imageSource": "",
+      "answer": "wygrywac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "rozwiesc",
+      "imageSource": "",
+      "answer": "rozwodzic",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "oswiadczyc",
+      "imageSource": "",
+      "answer": "oswiadczac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "krzyknac",
+      "imageSource": "",
+      "answer": "krzyczec",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "poklocic",
+      "imageSource": "",
+      "answer": "klocic",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "rozplakac",
+      "imageSource": "",
+      "answer": "plakac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "skontaktowac",
+      "imageSource": "",
+      "answer": "kontaktowac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "zadzwonic",
+      "imageSource": "",
+      "answer": "dzwonic",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "zestresowac",
+      "imageSource": "",
+      "answer": "stresowac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "ozenic",
+      "imageSource": "",
+      "answer": "zenic",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "przywitac",
+      "imageSource": "",
+      "answer": "witac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "urodzic",
+      "imageSource": "",
+      "answer": "rodzic",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "zostawic",
+      "imageSource": "",
+      "answer": "zostawiac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "zmienic",
+      "imageSource": "",
+      "answer": "zmieniac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "skonczyc",
+      "imageSource": "",
+      "answer": "konczyc",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "zaspiewac",
+      "imageSource": "",
+      "answer": "spiewac",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "przyniesc",
+      "imageSource": "",
+      "answer": "przynosic",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "niesc",
+      "imageSource": "",
+      "answer": "nosic",
+      "category": "pairsSecond"
+    },
+    {
+      "title": "zaprezentowac",
+      "imageSource": "",
+      "answer": "prezentowac",
+      "category": "pairsSecond"
     }
   ]
 }

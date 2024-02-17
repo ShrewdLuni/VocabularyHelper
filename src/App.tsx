@@ -25,6 +25,8 @@ function App() {
     "nature":false,
     "city":false,
     "body":false,
+    "pairsFirst":false,
+    "pairsSecond":false,
     "ALL" : false,
   });
 

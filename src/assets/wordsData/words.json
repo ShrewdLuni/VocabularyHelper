@@ -1547,106 +1547,107 @@
       "answer": "Słuchać",
       "category": "routine"
     },
+    
     {
-      "title": "jesc",
+      "title": "jeść",
       "imageSource": "",
-      "answer": "zjesc",
+      "answer": "zjeść",
       "category": "pairsFirst"
     },
     {
-      "title": "pic",
+      "title": "pić",
       "imageSource": "",
-      "answer": "wypic",
+      "answer": "wypić",
       "category": "pairsFirst"
     },
     {
-      "title": "myc",
+      "title": "myć",
       "imageSource": "",
-      "answer": "umyc",
+      "answer": "umyć",
       "category": "pairsFirst"
     },
     {
-      "title": "jechac",
+      "title": "jechać",
       "imageSource": "",
-      "answer": "pojechac",
+      "answer": "pojechać",
       "category": "pairsFirst"
     },
     {
-      "title": "wyjezdzac",
+      "title": "wyjeżdżać",
       "imageSource": "",
-      "answer": "wyjechac",
+      "answer": "wyjechać",
       "category": "pairsFirst"
     },
     {
-      "title": "wracac",
+      "title": "wracać",
       "imageSource": "",
-      "answer": "wrocic",
+      "answer": "wrócić",
       "category": "pairsFirst"
     },
     {
-      "title": "isc",
+      "title": "iść",
       "imageSource": "",
-      "answer": "pojsc",
+      "answer": "pójść",
       "category": "pairsFirst"
     },
     {
-      "title": "chodzic",
+      "title": "chodzić",
       "imageSource": "",
-      "answer": "pojsc",
+      "answer": "pójść",
       "category": "pairsFirst"
     },
     {
-      "title": "ogladac",
+      "title": "oglądać",
       "imageSource": "",
-      "answer": "obejrzec",
+      "answer": "obejrzeć",
       "category": "pairsFirst"
     },
     {
-      "title": "robic",
+      "title": "robić",
       "imageSource": "",
-      "answer": "zrobic",
+      "answer": "zrobić",
       "category": "pairsFirst"
     },
     {
-      "title": "przygotowywac",
+      "title": "przygotowywać",
       "imageSource": "",
-      "answer": "przygotowac",
+      "answer": "przygotować",
       "category": "pairsFirst"
     },
     {
-      "title": "brac",
+      "title": "brać",
       "imageSource": "",
-      "answer": "wziac",
+      "answer": "wziąć",
       "category": "pairsFirst"
     },
     {
-      "title": "czytac",
+      "title": "czytać",
       "imageSource": "",
-      "answer": "przeczytac",
+      "answer": "przeczytać",
       "category": "pairsFirst"
     },
     {
-      "title": "pisac",
+      "title": "pisać",
       "imageSource": "",
-      "answer": "napisac",
+      "answer": "napisać",
       "category": "pairsFirst"
     },
     {
-      "title": "odrabiac",
+      "title": "odrabiać",
       "imageSource": "",
-      "answer": "odrobic",
+      "answer": "odrobić",
       "category": "pairsFirst"
     },
     {
-      "title": "gotowac",
+      "title": "gotować",
       "imageSource": "",
-      "answer": "ugotowac",
+      "answer": "ugotować",
       "category": "pairsFirst"
     },
     {
-      "title": "smazyc",
+      "title": "smażyć",
       "imageSource": "",
-      "answer": "usmazyc",
+      "answer": "usmażyć",
       "category": "pairsFirst"
     },
     {
@@ -1656,261 +1657,261 @@
       "category": "pairsFirst"
     },
     {
-      "title": "ubierac",
+      "title": "ubierać",
       "imageSource": "",
-      "answer": "ubrac",
+      "answer": "ubrać",
       "category": "pairsFirst"
     },
     {
-      "title": "budowac",
+      "title": "budować",
       "imageSource": "",
-      "answer": "zbudowac",
+      "answer": "zbudować",
       "category": "pairsFirst"
     },
     {
-      "title": "prasowac",
+      "title": "prasować",
       "imageSource": "",
-      "answer": "wyprasowac",
+      "answer": "wyprasować",
       "category": "pairsFirst"
     },
     {
-      "title": "sprzatac",
+      "title": "sprzątać",
       "imageSource": "",
-      "answer": "posprzatac",
+      "answer": "posprzątać",
       "category": "pairsFirst"
     },
     {
-      "title": "malowac",
+      "title": "malować",
       "imageSource": "",
-      "answer": "namalowac",
+      "answer": "namalować",
       "category": "pairsFirst"
     },
     {
-      "title": "powtarzac",
+      "title": "powtarzać",
       "imageSource": "",
-      "answer": "powtorzyc",
+      "answer": "powtórzyć",
       "category": "pairsFirst"
     },
     {
-      "title": "uczyc",
+      "title": "uczyć",
       "imageSource": "",
-      "answer": "nauczyc",
+      "answer": "nauczyć",
       "category": "pairsFirst"
     },
     {
-      "title": "budzic",
+      "title": "budzić",
       "imageSource": "",
-      "answer": "obudzic",
+      "answer": "obudzić",
       "category": "pairsFirst"
     },
     {
-      "title": "wstawac",
+      "title": "wstawać",
       "imageSource": "",
-      "answer": "wstac",
+      "answer": "wstać",
       "category": "pairsFirst"
     },
     {
-      "title": "plynac",
+      "title": "płynąć",
       "imageSource": "",
-      "answer": "poplynac",
+      "answer": "popłynąć",
       "category": "pairsFirst"
     },
     {
-      "title": "leciec",
+      "title": "lecieć",
       "imageSource": "",
-      "answer": "poleciec",
+      "answer": "polecieć",
       "category": "pairsFirst"
     },
     {
-      "title": "spotykac",
+      "title": "spotykać",
       "imageSource": "",
-      "answer": "spotkac",
+      "answer": "spotkać",
       "category": "pairsFirst"
     },
     {
-      "title": "umawiac",
+      "title": "umawiać",
       "imageSource": "",
-      "answer": "umowic",
+      "answer": "umówic",
       "category": "pairsFirst"
     },
     {
-      "title": "spedzac",
+      "title": "spędzać",
       "imageSource": "",
-      "answer": "spedzic",
+      "answer": "spędzić",
       "category": "pairsFirst"
     },
     {
-      "title": "dawac",
+      "title": "dawać",
       "imageSource": "",
-      "answer": "dac",
+      "answer": "dać",
       "category": "pairsFirst"
     },
     {
-      "title": "dostawac",
+      "title": "dostawać",
       "imageSource": "",
-      "answer": "dostac",
+      "answer": "dostać",
       "category": "pairsFirst"
     },
     {
-      "title": "zarabiac",
+      "title": "zarabiać",
       "imageSource": "",
-      "answer": "zarobic",
+      "answer": "zarobić",
       "category": "pairsFirst"
     },
     {
-      "title": "wydawac",
+      "title": "wydawać",
       "imageSource": "",
-      "answer": "wydac",
+      "answer": "wydać",
       "category": "pairsFirst"
     },
     {
-      "title": "oszczedzac",
+      "title": "oszczędzać",
       "imageSource": "",
-      "answer": "oszczedzic",
+      "answer": "oszczędzić",
       "category": "pairsFirst"
     },
     {
-      "title": "pukac",
+      "title": "pukać",
       "imageSource": "",
-      "answer": "zapukac",
+      "answer": "zapukać",
       "category": "pairsFirst"
     },
     {
-      "title": "wysylac",
+      "title": "wysyłać",
       "imageSource": "",
-      "answer": "wyslac",
+      "answer": "wysłać",
       "category": "pairsFirst"
     },
     {
-      "title": "odbierac",
+      "title": "odbierać",
       "imageSource": "",
-      "answer": "odebrac",
+      "answer": "odebrać",
       "category": "pairsFirst"
     },
     {
-      "title": "pozyczac",
+      "title": "pożyczać",
       "imageSource": "",
-      "answer": "pozyczyc",
+      "answer": "pożyczyć",
       "category": "pairsFirst"
     },
     {
-      "title": "oddawac",
+      "title": "oddawać",
       "imageSource": "",
-      "answer": "oddac",
+      "answer": "oddać",
       "category": "pairsFirst"
     },
     {
-      "title": "poznawac",
+      "title": "poznawać",
       "imageSource": "",
-      "answer": "poznac",
+      "answer": "poznać",
       "category": "pairsFirst"
     },
     {
-      "title": "zaczynac",
+      "title": "zaczynać",
       "imageSource": "",
-      "answer": "zaczac",
+      "answer": "zacząć",
       "category": "pairsFirst"
     },
     {
-      "title": "organizowac",
+      "title": "organizować",
       "imageSource": "",
-      "answer": "zorganizowac",
+      "answer": "zorganizować",
       "category": "pairsFirst"
     },
     {
-      "title": "bawic",
+      "title": "bawić",
       "imageSource": "",
-      "answer": "pobawic",
+      "answer": "pobawić",
       "category": "pairsFirst"
     },
     {
-      "title": "cieszyc",
+      "title": "cieszyć",
       "imageSource": "",
-      "answer": "ucieszyc",
+      "answer": "ucieszyć",
       "category": "pairsFirst"
     },
     {
-      "title": "chorowac",
+      "title": "chorować",
       "imageSource": "",
-      "answer": "zachorowac",
+      "answer": "zachorować",
       "category": "pairsFirst"
     },
     {
-      "title": "zdrowiec",
+      "title": "zdrowieć",
       "imageSource": "",
-      "answer": "wyzdrowiec",
+      "answer": "wyzdrowieć",
       "category": "pairsFirst"
     },
     {
-      "title": "odwiedzac",
+      "title": "odwiedzać",
       "imageSource": "",
-      "answer": "odwiedzic",
+      "answer": "odwiedzić",
       "category": "pairsFirst"
     },
     {
-      "title": "interesowac",
+      "title": "interesować",
       "imageSource": "",
-      "answer": "zainteresowac",
+      "answer": "zainteresować",
       "category": "pairsFirst"
     },
     {
-      "title": "meczyc",
+      "title": "męczyć",
       "imageSource": "",
-      "answer": "zmeczyc",
+      "answer": "zmęczyć",
       "category": "pairsFirst"
     },
     {
-      "title": "odpoczywac",
+      "title": "odpoczywać",
       "imageSource": "",
-      "answer": "odpoczac",
+      "answer": "odpocząć",
       "category": "pairsFirst"
     },
     {
-      "title": "znikac",
+      "title": "znikać",
       "imageSource": "",
-      "answer": "zniknac",
+      "answer": "zniknąć",
       "category": "pairsFirst"
     },
     {
-      "title": "zamykac",
+      "title": "zamykać",
       "imageSource": "",
-      "answer": "zamknac",
+      "answer": "zamknąć",
       "category": "pairsFirst"
     },
     {
-      "title": "otwierac",
+      "title": "otwierać",
       "imageSource": "",
-      "answer": "otworzyc",
+      "answer": "otworzyć",
       "category": "pairsFirst"
     },
     {
-      "title": "usuwac",
+      "title": "usuwać",
       "imageSource": "",
-      "answer": "usunac",
+      "answer": "usunąć",
       "category": "pairsFirst"
     },
     {
-      "title": "zasypiac",
+      "title": "zasypiać",
       "imageSource": "",
-      "answer": "zasnac",
+      "answer": "zasnąć",
       "category": "pairsFirst"
     },
     {
-      "title": "spozniac",
+      "title": "spóżniać",
       "imageSource": "",
-      "answer": "spoznic",
+      "answer": "spóżnić",
       "category": "pairsFirst"
     },
     {
-      "title": "tanczyc",
+      "title": "tańczyć",
       "imageSource": "",
-      "answer": "zatanczyc",
+      "answer": "zatańczyć",
       "category": "pairsFirst"
     },
     {
-      "title": "zdawac",
+      "title": "zdawać",
       "imageSource": "",
-      "answer": "zdac",
+      "answer": "zdać",
       "category": "pairsFirst"
     },
     {
@@ -1920,267 +1921,267 @@
       "category": "pairsFirst"
     },
     {
-      "title": "grac",
+      "title": "grać",
       "imageSource": "",
-      "answer": "zagrac",
+      "answer": "zagrać",
       "category": "pairsFirst"
     },
     {
-      "title": "czekac",
+      "title": "czekać",
       "imageSource": "",
-      "answer": "poczekac",
+      "answer": "poczekać",
       "category": "pairsFirst"
     },
     {
-      "title": "kupowac",
+      "title": "kupować",
       "imageSource": "",
-      "answer": "kupic",
+      "answer": "kupić",
       "category": "pairsFirst"
     },
     {
-      "title": "mowic",
+      "title": "mówić",
       "imageSource": "",
-      "answer": "powiedziec",
+      "answer": "powiedzieć",
       "category": "pairsFirst"
     },
     {
-      "title": "sluchac",
+      "title": "słuchać",
       "imageSource": "",
-      "answer": "posluchac",
+      "answer": "posłuchać",
       "category": "pairsFirst"
     },
     {
-      "title": "rozmawiac",
+      "title": "rozmawiać",
       "imageSource": "",
-      "answer": "poroznawiac",
+      "answer": "poroznawiać",
       "category": "pairsFirst"
     },
     {
-      "title": "widziec",
+      "title": "widzieć",
       "imageSource": "",
-      "answer": "zobaczyc",
+      "answer": "zobaczyć",
       "category": "pairsFirst"
     },
     {
-      "title": "wiedziec",
+      "title": "wiedzieć",
       "imageSource": "",
-      "answer": "dowiedziec",
+      "answer": "dowiedzieć",
       "category": "pairsFirst"
     },
     {
-      "title": "wygrywac",
+      "title": "wygrywać",
       "imageSource": "",
-      "answer": "wygrac",
+      "answer": "wygrać",
       "category": "pairsFirst"
     },
     {
-      "title": "rozwodzic",
+      "title": "rozwodzić",
       "imageSource": "",
-      "answer": "rozwiesc",
+      "answer": "rozwieść",
       "category": "pairsFirst"
     },
     {
-      "title": "oswiadczac",
+      "title": "oświadczać",
       "imageSource": "",
-      "answer": "oswiadczyc",
+      "answer": "oświadczyć",
       "category": "pairsFirst"
     },
     {
-      "title": "krzyczec",
+      "title": "krzyczeć",
       "imageSource": "",
-      "answer": "krzyknac",
+      "answer": "krzyknąć",
       "category": "pairsFirst"
     },
     {
-      "title": "klocic",
+      "title": "kłócić",
       "imageSource": "",
-      "answer": "poklocic",
+      "answer": "pokłócić",
       "category": "pairsFirst"
     },
     {
-      "title": "plakac",
+      "title": "płakać",
       "imageSource": "",
-      "answer": "rozplakac",
+      "answer": "rozpłakać",
       "category": "pairsFirst"
     },
     {
-      "title": "kontaktowac",
+      "title": "kontaktować",
       "imageSource": "",
-      "answer": "skontaktowac",
+      "answer": "skontaktować",
       "category": "pairsFirst"
     },
     {
-      "title": "dzwonic",
+      "title": "dzwonić",
       "imageSource": "",
-      "answer": "zadzwonic",
+      "answer": "zadzwonić",
       "category": "pairsFirst"
     },
     {
-      "title": "stresowac",
+      "title": "stresować",
       "imageSource": "",
-      "answer": "zestresowac",
+      "answer": "zestresować",
       "category": "pairsFirst"
     },
     {
-      "title": "zenic",
+      "title": "żenić",
       "imageSource": "",
-      "answer": "ozenic",
+      "answer": "ożenić",
       "category": "pairsFirst"
     },
     {
-      "title": "witac",
+      "title": "witać",
       "imageSource": "",
-      "answer": "przywitac",
+      "answer": "przywitać",
       "category": "pairsFirst"
     },
     {
-      "title": "rodzic",
+      "title": "rodzić",
       "imageSource": "",
-      "answer": "urodzic",
+      "answer": "urodzić",
       "category": "pairsFirst"
     },
     {
-      "title": "zostawiac",
+      "title": "zostawiać",
       "imageSource": "",
-      "answer": "zostawic",
+      "answer": "zostawić",
       "category": "pairsFirst"
     },
     {
-      "title": "zmieniac",
+      "title": "zmieniać",
       "imageSource": "",
-      "answer": "zmienic",
+      "answer": "zmienić",
       "category": "pairsFirst"
     },
     {
-      "title": "konczyc",
+      "title": "kończyć",
       "imageSource": "",
-      "answer": "skonczyc",
+      "answer": "skończyć",
       "category": "pairsFirst"
     },
     {
-      "title": "spiewac",
+      "title": "śpiewać",
       "imageSource": "",
-      "answer": "zaspiewac",
+      "answer": "zaśpiewać",
       "category": "pairsFirst"
     },
     {
-      "title": "przynosic",
+      "title": "przynosić",
       "imageSource": "",
-      "answer": "przyniesc",
+      "answer": "przynieść",
       "category": "pairsFirst"
     },
     {
-      "title": "nosic",
+      "title": "nosić",
       "imageSource": "",
-      "answer": "niesc",
+      "answer": "nieść",
       "category": "pairsFirst"
     },
     {
-      "title": "prezentowac",
+      "title": "prezentować",
       "imageSource": "",
-      "answer": "zaprezentowac",
+      "answer": "zaprezentować",
       "category": "pairsFirst"
     },
     {
-      "title": "zjesc",
+      "title": "zjeść",
       "imageSource": "",
-      "answer": "jesc",
+      "answer": "jeść",
       "category": "pairsSecond"
     },
     {
-      "title": "wypic",
+      "title": "wypić",
       "imageSource": "",
-      "answer": "pic",
+      "answer": "pić",
       "category": "pairsSecond"
     },
     {
-      "title": "umyc",
+      "title": "umyć",
       "imageSource": "",
-      "answer": "myc",
+      "answer": "myć",
       "category": "pairsSecond"
     },
     {
-      "title": "pojechac",
+      "title": "pojechać",
       "imageSource": "",
-      "answer": "jechac",
+      "answer": "jechać",
       "category": "pairsSecond"
     },
     {
-      "title": "wyjechac",
+      "title": "wyjechać",
       "imageSource": "",
-      "answer": "wyjezdzac",
+      "answer": "wyjeżdżać",
       "category": "pairsSecond"
     },
     {
-      "title": "wrocic",
+      "title": "wrócić",
       "imageSource": "",
-      "answer": "wracac",
+      "answer": "wracać",
       "category": "pairsSecond"
     },
     {
-      "title": "pojsc",
+      "title": "pójść",
       "imageSource": "",
-      "answer": "isc",
+      "answer": "iść",
       "category": "pairsSecond"
     },
     {
-      "title": "pojsc",
+      "title": "pójść",
       "imageSource": "",
-      "answer": "chodzic",
+      "answer": "chodzić",
       "category": "pairsSecond"
     },
     {
-      "title": "obejrzec",
+      "title": "obejrzeć",
       "imageSource": "",
-      "answer": "ogladac",
+      "answer": "oglądać",
       "category": "pairsSecond"
     },
     {
-      "title": "zrobic",
+      "title": "zrobić",
       "imageSource": "",
-      "answer": "robic",
+      "answer": "robić",
       "category": "pairsSecond"
     },
     {
-      "title": "przygotowac",
+      "title": "przygotować",
       "imageSource": "",
-      "answer": "przygotowywac",
+      "answer": "przygotowywać",
       "category": "pairsSecond"
     },
     {
-      "title": "wziac",
+      "title": "wziąć",
       "imageSource": "",
-      "answer": "brac",
+      "answer": "brać",
       "category": "pairsSecond"
     },
     {
-      "title": "przeczytac",
+      "title": "przeczytać",
       "imageSource": "",
-      "answer": "czytac",
+      "answer": "czytać",
       "category": "pairsSecond"
     },
     {
-      "title": "napisac",
+      "title": "napisać",
       "imageSource": "",
-      "answer": "pisac",
+      "answer": "pisać",
       "category": "pairsSecond"
     },
     {
-      "title": "odrobic",
+      "title": "odrobić",
       "imageSource": "",
-      "answer": "odrabiac",
+      "answer": "odrabiać",
       "category": "pairsSecond"
     },
     {
-      "title": "ugotowac",
+      "title": "ugotować",
       "imageSource": "",
-      "answer": "gotowac",
+      "answer": "gotować",
       "category": "pairsSecond"
     },
     {
-      "title": "usmazyc",
+      "title": "usmażyć",
       "imageSource": "",
-      "answer": "smazyc",
+      "answer": "smażyć",
       "category": "pairsSecond"
     },
     {
@@ -2190,261 +2191,261 @@
       "category": "pairsSecond"
     },
     {
-      "title": "ubrac",
+      "title": "ubrać",
       "imageSource": "",
-      "answer": "ubierac",
+      "answer": "ubierać",
       "category": "pairsSecond"
     },
     {
-      "title": "zbudowac",
+      "title": "zbudować",
       "imageSource": "",
-      "answer": "budowac",
+      "answer": "budować",
       "category": "pairsSecond"
     },
     {
-      "title": "wyprasowac",
+      "title": "wyprasować",
       "imageSource": "",
-      "answer": "prasowac",
+      "answer": "prasować",
       "category": "pairsSecond"
     },
     {
-      "title": "posprzatac",
+      "title": "posprzątać",
       "imageSource": "",
-      "answer": "sprzatac",
+      "answer": "sprzątać",
       "category": "pairsSecond"
     },
     {
-      "title": "namalowac",
+      "title": "namalować",
       "imageSource": "",
-      "answer": "malowac",
+      "answer": "malować",
       "category": "pairsSecond"
     },
     {
-      "title": "powtorzyc",
+      "title": "powtórzyć",
       "imageSource": "",
-      "answer": "powtarzac",
+      "answer": "powtarzać",
       "category": "pairsSecond"
     },
     {
-      "title": "nauczyc",
+      "title": "nauczyć",
       "imageSource": "",
-      "answer": "uczyc",
+      "answer": "uczyć",
       "category": "pairsSecond"
     },
     {
-      "title": "obudzic",
+      "title": "obudzić",
       "imageSource": "",
-      "answer": "budzic",
+      "answer": "budzić",
       "category": "pairsSecond"
     },
     {
-      "title": "wstac",
+      "title": "wstać",
       "imageSource": "",
-      "answer": "wstawac",
+      "answer": "wstawać",
       "category": "pairsSecond"
     },
     {
-      "title": "poplynac",
+      "title": "popłynąć",
       "imageSource": "",
-      "answer": "plynac",
+      "answer": "płynąć",
       "category": "pairsSecond"
     },
     {
-      "title": "poleciec",
+      "title": "polecieć",
       "imageSource": "",
-      "answer": "leciec",
+      "answer": "lecieć",
       "category": "pairsSecond"
     },
     {
-      "title": "spotkac",
+      "title": "spotkać",
       "imageSource": "",
-      "answer": "spotykac",
+      "answer": "spotykać",
       "category": "pairsSecond"
     },
     {
-      "title": "umowic",
+      "title": "umówic",
       "imageSource": "",
-      "answer": "umawiac",
+      "answer": "umawiać",
       "category": "pairsSecond"
     },
     {
-      "title": "spedzic",
+      "title": "spędzić",
       "imageSource": "",
-      "answer": "spedzac",
+      "answer": "spędzać",
       "category": "pairsSecond"
     },
     {
-      "title": "dac",
+      "title": "dać",
       "imageSource": "",
-      "answer": "dawac",
+      "answer": "dawać",
       "category": "pairsSecond"
     },
     {
-      "title": "dostac",
+      "title": "dostać",
       "imageSource": "",
-      "answer": "dostawac",
+      "answer": "dostawać",
       "category": "pairsSecond"
     },
     {
-      "title": "zarobic",
+      "title": "zarobić",
       "imageSource": "",
-      "answer": "zarabiac",
+      "answer": "zarabiać",
       "category": "pairsSecond"
     },
     {
-      "title": "wydac",
+      "title": "wydać",
       "imageSource": "",
-      "answer": "wydawac",
+      "answer": "wydawać",
       "category": "pairsSecond"
     },
     {
-      "title": "oszczedzic",
+      "title": "oszczędzić",
       "imageSource": "",
-      "answer": "oszczedzac",
+      "answer": "oszczędzać",
       "category": "pairsSecond"
     },
     {
-      "title": "zapukac",
+      "title": "zapukać",
       "imageSource": "",
-      "answer": "pukac",
+      "answer": "pukać",
       "category": "pairsSecond"
     },
     {
-      "title": "wyslac",
+      "title": "wysłać",
       "imageSource": "",
-      "answer": "wysylac",
+      "answer": "wysyłać",
       "category": "pairsSecond"
     },
     {
-      "title": "odebrac",
+      "title": "odebrać",
       "imageSource": "",
-      "answer": "odbierac",
+      "answer": "odbierać",
       "category": "pairsSecond"
     },
     {
-      "title": "pozyczyc",
+      "title": "pożyczyć",
       "imageSource": "",
-      "answer": "pozyczac",
+      "answer": "pożyczać",
       "category": "pairsSecond"
     },
     {
-      "title": "oddac",
+      "title": "oddać",
       "imageSource": "",
-      "answer": "oddawac",
+      "answer": "oddawać",
       "category": "pairsSecond"
     },
     {
-      "title": "poznac",
+      "title": "poznać",
       "imageSource": "",
-      "answer": "poznawac",
+      "answer": "poznawać",
       "category": "pairsSecond"
     },
     {
-      "title": "zaczac",
+      "title": "zacząć",
       "imageSource": "",
-      "answer": "zaczynac",
+      "answer": "zaczynać",
       "category": "pairsSecond"
     },
     {
-      "title": "zorganizowac",
+      "title": "zorganizować",
       "imageSource": "",
-      "answer": "organizowac",
+      "answer": "organizować",
       "category": "pairsSecond"
     },
     {
-      "title": "pobawic",
+      "title": "pobawić",
       "imageSource": "",
-      "answer": "bawic",
+      "answer": "bawić",
       "category": "pairsSecond"
     },
     {
-      "title": "ucieszyc",
+      "title": "ucieszyć",
       "imageSource": "",
-      "answer": "cieszyc",
+      "answer": "cieszyć",
       "category": "pairsSecond"
     },
     {
-      "title": "zachorowac",
+      "title": "zachorować",
       "imageSource": "",
-      "answer": "chorowac",
+      "answer": "chorować",
       "category": "pairsSecond"
     },
     {
-      "title": "wyzdrowiec",
+      "title": "wyzdrowieć",
       "imageSource": "",
-      "answer": "zdrowiec",
+      "answer": "zdrowieć",
       "category": "pairsSecond"
     },
     {
-      "title": "odwiedzic",
+      "title": "odwiedzić",
       "imageSource": "",
-      "answer": "odwiedzac",
+      "answer": "odwiedzać",
       "category": "pairsSecond"
     },
     {
-      "title": "zainteresowac",
+      "title": "zainteresować",
       "imageSource": "",
-      "answer": "interesowac",
+      "answer": "interesować",
       "category": "pairsSecond"
     },
     {
-      "title": "zmeczyc",
+      "title": "zmęczyć",
       "imageSource": "",
-      "answer": "meczyc",
+      "answer": "męczyć",
       "category": "pairsSecond"
     },
     {
-      "title": "odpoczac",
+      "title": "odpocząć",
       "imageSource": "",
-      "answer": "odpoczywac",
+      "answer": "odpoczywać",
       "category": "pairsSecond"
     },
     {
-      "title": "zniknac",
+      "title": "zniknąć",
       "imageSource": "",
-      "answer": "znikac",
+      "answer": "znikać",
       "category": "pairsSecond"
     },
     {
-      "title": "zamknac",
+      "title": "zamknąć",
       "imageSource": "",
-      "answer": "zamykac",
+      "answer": "zamykać",
       "category": "pairsSecond"
     },
     {
-      "title": "otworzyc",
+      "title": "otworzyć",
       "imageSource": "",
-      "answer": "otwierac",
+      "answer": "otwierać",
       "category": "pairsSecond"
     },
     {
-      "title": "usunac",
+      "title": "usunąć",
       "imageSource": "",
-      "answer": "usuwac",
+      "answer": "usuwać",
       "category": "pairsSecond"
     },
     {
-      "title": "zasnac",
+      "title": "zasnąć",
       "imageSource": "",
-      "answer": "zasypiac",
+      "answer": "zasypiać",
       "category": "pairsSecond"
     },
     {
-      "title": "spoznic",
+      "title": "spóżnić",
       "imageSource": "",
-      "answer": "spozniac",
+      "answer": "spóżniać",
       "category": "pairsSecond"
     },
     {
-      "title": "zatanczyc",
+      "title": "zatańczyć",
       "imageSource": "",
-      "answer": "tanczyc",
+      "answer": "tańczyć",
       "category": "pairsSecond"
     },
     {
-      "title": "zdac",
+      "title": "zdać",
       "imageSource": "",
-      "answer": "zdawac",
+      "answer": "zdawać",
       "category": "pairsSecond"
     },
     {
@@ -2454,165 +2455,165 @@
       "category": "pairsSecond"
     },
     {
-      "title": "zagrac",
+      "title": "zagrać",
       "imageSource": "",
-      "answer": "grac",
+      "answer": "grać",
       "category": "pairsSecond"
     },
     {
-      "title": "poczekac",
+      "title": "poczekać",
       "imageSource": "",
-      "answer": "czekac",
+      "answer": "czekać",
       "category": "pairsSecond"
     },
     {
-      "title": "kupic",
+      "title": "kupić",
       "imageSource": "",
-      "answer": "kupowac",
+      "answer": "kupować",
       "category": "pairsSecond"
     },
     {
-      "title": "powiedziec",
+      "title": "powiedzieć",
       "imageSource": "",
-      "answer": "mowic",
+      "answer": "mówić",
       "category": "pairsSecond"
     },
     {
-      "title": "posluchac",
+      "title": "posłuchać",
       "imageSource": "",
-      "answer": "sluchac",
+      "answer": "słuchać",
       "category": "pairsSecond"
     },
     {
-      "title": "poroznawiac",
+      "title": "poroznawiać",
       "imageSource": "",
-      "answer": "rozmawiac",
+      "answer": "rozmawiać",
       "category": "pairsSecond"
     },
     {
-      "title": "zobaczyc",
+      "title": "zobaczyć",
       "imageSource": "",
-      "answer": "widziec",
+      "answer": "widzieć",
       "category": "pairsSecond"
     },
     {
-      "title": "dowiedziec",
+      "title": "dowiedzieć",
       "imageSource": "",
-      "answer": "wiedziec",
+      "answer": "wiedzieć",
       "category": "pairsSecond"
     },
     {
-      "title": "wygrac",
+      "title": "wygrać",
       "imageSource": "",
-      "answer": "wygrywac",
+      "answer": "wygrywać",
       "category": "pairsSecond"
     },
     {
-      "title": "rozwiesc",
+      "title": "rozwieść",
       "imageSource": "",
-      "answer": "rozwodzic",
+      "answer": "rozwodzić",
       "category": "pairsSecond"
     },
     {
-      "title": "oswiadczyc",
+      "title": "oświadczyć",
       "imageSource": "",
-      "answer": "oswiadczac",
+      "answer": "oświadczać",
       "category": "pairsSecond"
     },
     {
-      "title": "krzyknac",
+      "title": "krzyknąć",
       "imageSource": "",
-      "answer": "krzyczec",
+      "answer": "krzyczeć",
       "category": "pairsSecond"
     },
     {
-      "title": "poklocic",
+      "title": "pokłócić",
       "imageSource": "",
-      "answer": "klocic",
+      "answer": "kłócić",
       "category": "pairsSecond"
     },
     {
-      "title": "rozplakac",
+      "title": "rozpłakać",
       "imageSource": "",
-      "answer": "plakac",
+      "answer": "płakać",
       "category": "pairsSecond"
     },
     {
-      "title": "skontaktowac",
+      "title": "skontaktować",
       "imageSource": "",
-      "answer": "kontaktowac",
+      "answer": "kontaktować",
       "category": "pairsSecond"
     },
     {
-      "title": "zadzwonic",
+      "title": "zadzwonić",
       "imageSource": "",
-      "answer": "dzwonic",
+      "answer": "dzwonić",
       "category": "pairsSecond"
     },
     {
-      "title": "zestresowac",
+      "title": "zestresować",
       "imageSource": "",
-      "answer": "stresowac",
+      "answer": "stresować",
       "category": "pairsSecond"
     },
     {
-      "title": "ozenic",
+      "title": "ożenić",
       "imageSource": "",
-      "answer": "zenic",
+      "answer": "żenić",
       "category": "pairsSecond"
     },
     {
-      "title": "przywitac",
+      "title": "przywitać",
       "imageSource": "",
-      "answer": "witac",
+      "answer": "witać",
       "category": "pairsSecond"
     },
     {
-      "title": "urodzic",
+      "title": "urodzić",
       "imageSource": "",
-      "answer": "rodzic",
+      "answer": "rodzić",
       "category": "pairsSecond"
     },
     {
-      "title": "zostawic",
+      "title": "zostawić",
       "imageSource": "",
-      "answer": "zostawiac",
+      "answer": "zostawiać",
       "category": "pairsSecond"
     },
     {
-      "title": "zmienic",
+      "title": "zmienić",
       "imageSource": "",
-      "answer": "zmieniac",
+      "answer": "zmieniać",
       "category": "pairsSecond"
     },
     {
-      "title": "skonczyc",
+      "title": "skończyć",
       "imageSource": "",
-      "answer": "konczyc",
+      "answer": "kończyć",
       "category": "pairsSecond"
     },
     {
-      "title": "zaspiewac",
+      "title": "zaśpiewać",
       "imageSource": "",
-      "answer": "spiewac",
+      "answer": "śpiewać",
       "category": "pairsSecond"
     },
     {
-      "title": "przyniesc",
+      "title": "przynieść",
       "imageSource": "",
-      "answer": "przynosic",
+      "answer": "przynosić",
       "category": "pairsSecond"
     },
     {
-      "title": "niesc",
+      "title": "nieść",
       "imageSource": "",
-      "answer": "nosic",
+      "answer": "nosić",
       "category": "pairsSecond"
     },
     {
-      "title": "zaprezentowac",
+      "title": "zaprezentować",
       "imageSource": "",
-      "answer": "prezentowac",
+      "answer": "prezentować",
       "category": "pairsSecond"
     }
   ]

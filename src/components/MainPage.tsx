@@ -12,7 +12,7 @@ interface MainPageProps {
   setGameMode : any;
   setWordsLimit: any;
 }
-//make up for
+
 export const MainPage = ({onPlay, categories,updateCategories,setAllCategories,gameMode,setGameMode,setWordsLimit} : MainPageProps) => {
 	return (
     <div className="text-center bg-gray-900 h-screen flex flex-col justify-center items-center">

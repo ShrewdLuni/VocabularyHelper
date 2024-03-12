@@ -2,13 +2,14 @@ import { useEffect, useState } from "react";
 
 import { Input } from "@/components/ui/input";
 import { Button } from "./ui/button";
-import { Progress } from "@/components/ui/progress"
 
 
 import { cn } from "@/lib/utils";
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { Game } from "./Game";
+import { GameOver } from "./GameOver";
 
 interface GamePageProps {
   onEnd: any;
@@ -96,13 +97,7 @@ export const GamePage = ({onEnd, data, gameModeType, wordsLimit} : GamePageProps
       <div> 
         {!isEnded
         ? <div>
-            <p className="mb-2">{index + 1} / {limit + 1}</p>
-            <Progress value={(index + 1) / (limit + 1) * 100} className="mb-3"/>
-            <div className="border-solid border-4 border-green-600 rounded-xl bg-gray-900">
-              <img className="object-cover h-[50vh] rounded-t-md" src={data[index].imageSource}/>
-              <p className="border-solid border-t-[6px] border-green-600 min-w-full min-h-full">{data[index].title}</p>
-            </div>
-            <div>
+              <Game index={index} limit={limit} data={data}/>
               {gameModeType
               ? <div>
                   <Input value={value} onChange={(event) => handleInput(event)} placeholder="What is it?" className="mt-[5%] bg-gray-800 border-solid border-2 border-purple-500 rounded-2xl text-center text-white focus-visible:ring-0 focus-visible:ring-transparent focus-visible:ring-offset-0"/>
@@ -113,17 +108,8 @@ export const GamePage = ({onEnd, data, gameModeType, wordsLimit} : GamePageProps
                   <Button className={"bg-rose-500 text-white w-full h-full mt-4"} variant="ghost" onClick={() => {checkAnswer(data[answerOptions[2]].answer + " ")}}>{data[answerOptions[2]].answer}</Button>
                 </div>
               }
-            </div>
           </div>
-        : <div>
-            Game Over
-            <div className="flex gap-x-3 items-center justify-center my-2">
-              <p>✅:{right}</p>
-              <p>❌:{wrong}</p>
-            </div>
-            <p>{Math.ceil((right / (wrong + right)) * 100)}%</p>
-            <Button className={"bg-rose-500 text-white w-full h-full mt-4"} variant="ghost" onClick={() => {onEnd();setIsEnded(false)}}>Exit</Button>
-          </div>
+        : <GameOver right={right} wrong={wrong} onClick={() => {onEnd();setIsEnded(false)}}/>
         }
       </div>
       <ToastContainer stacked style={{ width: "200  px" }}/>

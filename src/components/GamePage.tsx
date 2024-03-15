@@ -65,12 +65,6 @@ export const GamePage = ({onEnd, data, gameModeType, wordsLimit} : GamePageProps
     }
     else
     {
-      //if(!(word results.includes(data[index].title)){
-      //  word results.add([key : data[index].title] : {number : 1, streak: 0})
-      //}
-      //else{
-      //   word results.update([key : data[index].title] : {number : 1, streak: 0})
-      //}
       console.log((index + 1) / (limit + 1) * 100);
       getNames(1);
       setIndex(index + 1);

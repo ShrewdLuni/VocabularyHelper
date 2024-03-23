@@ -3,7 +3,7 @@ import { GameModes } from "./GameModes"
 import { Button } from "./ui/button"
 import { Input } from "./ui/input";
 
-interface MainPageProps {
+interface OldMainPageProps {
   onPlay: any;
   categories: Record<string, boolean>;
   updateCategories: any;
@@ -13,7 +13,7 @@ interface MainPageProps {
   setWordsLimit: any;
 }
 
-export const MainPage = ({onPlay, categories,updateCategories,setAllCategories,gameMode,setGameMode,setWordsLimit} : MainPageProps) => {
+export const OldMainPage = ({onPlay, categories,updateCategories,setAllCategories,gameMode,setGameMode,setWordsLimit} : OldMainPageProps) => {
 	return (
     <div className="text-center bg-gray-900 h-screen flex flex-col justify-center items-center">
       <div className="grid grid-cols-4 gap-4 lg:gap-6 w-[90%] lg:w-[50%]">

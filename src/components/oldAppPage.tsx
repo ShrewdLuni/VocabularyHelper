@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { MainPage } from "./MainPage";
+import { OldMainPage } from "./OldMainPage";
 import { GamePage } from "./GamePage";
 
 import * as wordData from '../assets/wordsData/words.json';
@@ -67,7 +67,7 @@ export const OldAppPage = () => {
   return (
     <div className="overflow-hidden">
       {!playing
-      ? <MainPage onPlay={() => {setPlaying(true);if(Object.values(categories).filter(item => item === true).length == 0){setAllCategories(true)}}} categories={categories} updateCategories={setCategories} setAllCategories={setAllCategories} gameMode={gameMode} setGameMode={setGameMode} setWordsLimit={setWordsLimit}/>
+      ? <OldMainPage onPlay={() => {setPlaying(true);if(Object.values(categories).filter(item => item === true).length == 0){setAllCategories(true)}}} categories={categories} updateCategories={setCategories} setAllCategories={setAllCategories} gameMode={gameMode} setGameMode={setGameMode} setWordsLimit={setWordsLimit}/>
       : <GamePage onEnd={() => setPlaying(false)} data={getData()} gameModeType={gameMode === 0} wordsLimit={wordsLimit}/>
       }
     </div>

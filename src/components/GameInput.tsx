@@ -1,3 +1,5 @@
+import { ButtonInput } from "./ButtonInput"
+import { TypeInput } from "./TypeInput"
 import { Button } from "./ui/button"
 import { Input } from "./ui/input"
 
@@ -14,19 +16,9 @@ export const GameInput = ({} : InputProps) => {
       {(() => {
         switch (text) {
           case 'Typing':
-            return (
-              <div>
-                <Input value={"value"} onChange={() => {}} placeholder="What is it?" className="mt-[5%] bg-gray-800 border-solid border-2 border-purple-500 rounded-2xl text-center text-white focus-visible:ring-0 focus-visible:ring-transparent focus-visible:ring-offset-0"/>
-              </div>
-            )
+            return <TypeInput/>
           case 'Buttons':
-            return (
-              <div className="flex gap-x-3 text-white mt-4">
-                <Button className={"bg-rose-500  w-full h-full"} variant="ghost" onClick={() => {}}>{"test1"}</Button>
-                <Button className={"bg-rose-500 w-full h-full"} variant="ghost" onClick={() => {}}>{"test2"}</Button>
-                <Button className={"bg-rose-500 w-full h-full"} variant="ghost" onClick={() => {}}>{"test4"}</Button>
-              </div>
-            )
+            return <ButtonInput/> 
         }
       })()}
 

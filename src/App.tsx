@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="bg-gray-900">
-      <div className="text-center grid grid-rows-[auto,1fr,auto] h-screen items-center p-8 gap-8 w-full justify-center">
+      <div className="text-center flex flex-col h-screen items-center p-8 gap-8 w-full justify-center overflow-hidden">
         <Navbar/>
         <Main/> 
         <Credits/>

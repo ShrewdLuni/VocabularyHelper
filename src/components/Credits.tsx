@@ -1,21 +1,16 @@
-import { Github, Linkedin, Mail } from "lucide-react"
-import { Button } from "./ui/button"
+import { Github, Linkedin } from "lucide-react"
 
 export const Credits = () => {
   return (
     <div className="flex flex-row gap-x-4">
-      <Button className="flex flex-row gap-x-2 text-gray-400 hover:text-white bg-inherit hover:bg-inherit">
-        <Mail/>
-        <p>Contact</p>
-      </Button>
-      <Button className="flex flex-row gap-x-2 text-gray-400 hover:text-white bg-inherit hover:bg-inherit">
+      <a className="flex flex-row gap-x-2 text-gray-400 hover:text-white bg-inherit hover:bg-inherit font-bold" href="https://github.com/ShrewdLuni">
         <Github/>
-        <p>github</p>
-      </Button>
-      <Button className="flex flex-row gap-x-2 text-gray-400 hover:text-white bg-inherit hover:bg-inherit">
+        <p>Github</p>
+      </a>
+      <a className="flex flex-row gap-x-2 text-gray-400 hover:text-white bg-inherit hover:bg-inherit font-bold" href="https://www.linkedin.com/in/shrewd/">
         <Linkedin/>
         <p>Linkedin</p>
-      </Button>
+      </a>
     </div>
   )
 }

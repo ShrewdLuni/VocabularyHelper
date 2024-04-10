@@ -1,27 +1,21 @@
 import { ButtonInput } from "./ButtonInput"
 import { TypeInput } from "./TypeInput"
-import { Button } from "./ui/button"
-import { Input } from "./ui/input"
 
 interface InputProps{
-
+  inputType : string
 }
 
-export const GameInput = ({} : InputProps) => {
-  let text = "Typing"
-  
+export const GameInput = ({inputType} : InputProps) => {
   return (
-
     <div>
       {(() => {
-        switch (text) {
+        switch (inputType) {
           case 'Typing':
             return <TypeInput/>
           case 'Buttons':
             return <ButtonInput/> 
         }
       })()}
-
     </div>
   )
 }

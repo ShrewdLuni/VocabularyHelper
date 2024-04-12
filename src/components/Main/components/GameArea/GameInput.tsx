@@ -1,5 +1,5 @@
-import { ButtonInput } from "./ButtonInput"
-import { TypeInput } from "./TypeInput"
+import { ButtonInput } from "./InputTypes/ButtonInput"
+import { TypeInput } from "./InputTypes/TypeInput"
 
 interface InputProps{
   inputType : string

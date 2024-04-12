@@ -2,7 +2,7 @@ import { useState } from "react"
 import { OldMainPage } from "./OldMainPage";
 import { GamePage } from "./GamePage";
 
-import * as wordData from '../assets/wordsData/words.json';
+import * as wordData from '../../assets/wordsData/words.json';
 
 interface CategoriesList {
   [key: string]: boolean;

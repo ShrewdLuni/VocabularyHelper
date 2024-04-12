@@ -1,5 +1,5 @@
 import { Wrench } from "lucide-react"
-import { BarItem } from "./barItem"
+import { BarItem } from "./BarItm"
 
 
 interface HeaderProps{

@@ -1,5 +1,5 @@
-import { GameArea } from "./GameArea"
-import { Header } from "./Header"
+import { GameArea } from "./components/GameArea/GameArea"
+import { Header } from "./components/Header/Header"
 
 interface GameProps{
   inputType: string

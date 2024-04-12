@@ -1,5 +1,5 @@
 import { LucideIcon } from "lucide-react";
-import { Button } from "./ui/button"
+import { Button } from "../../../ui/button"
 import { IconType } from "react-icons";
 import { cn } from "@/lib/utils";
 

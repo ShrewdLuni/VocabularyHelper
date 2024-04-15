@@ -1,6 +1,6 @@
-import { Navbar } from "./components/Navbar/Navbar";
-import { Credits } from "./components/Credits/Credits";
-import { Main } from "./components/Main/Main";
+import { Navbar } from "./components/Navbar/index";
+import { Credits } from "./components/Credits/index";
+import { Main } from "./components/Main/index";
 import { useState } from "react";
 
 function App() {

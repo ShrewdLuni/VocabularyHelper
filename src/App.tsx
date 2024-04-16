@@ -10,6 +10,7 @@ function App() {
   const [gameMode,setGameMode] = useState("")
   const [questionLimit,setQuestionLimit] = useState(100)
 
+
   function nextQuestion() {
     //getdata
     setQuestionImageLink("data")

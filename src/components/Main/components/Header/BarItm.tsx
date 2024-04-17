@@ -15,8 +15,8 @@ interface BarItemProps {
 export const BarItem = ({icon: Icon, label,isNumber,onClick,isActive} : BarItemProps) => {
   return (
     <Button className="text-gray-400 text-xs hover:text-white bg-inherit hover:bg-inherit" onClick={onClick}>
-      {Icon && <Icon className={cn("h-4 w-4",isActive && "text-white font-bold")}/>}
-      {label && <p className={cn(isNumber && "h-4 w-4", isActive && "text-white font-bold")}>{label}</p>}
+      {Icon && <Icon className={cn("h-4 w-4",isActive && "text-white")}/>}
+      {label && <p className={cn(isNumber && "h-4 w-4", isActive && "text-white")}>{label}</p>}
     </Button>
   )
 }

@@ -8,7 +8,7 @@ interface GameProps{
   gameMode: string
   questionLimit: number
 
-  setInputType: (value : string) => void
+  setInputType: (value : "Typing" | "Buttons") => void
   setQuestionImageLink: (value : string) => void
   setQuestionLabel: (value : string) => void
   setGameMode: (value : string) => void
@@ -16,11 +16,11 @@ interface GameProps{
 }
 
 
-export const Main = ({inputType,questionImageLink,questionLabel,setInputType,setGameMode,setQuestionLimit} : GameProps) => {
+export const Main = ({inputType,questionImageLink,questionLabel,gameMode,questionLimit,setInputType,setGameMode,setQuestionLimit} : GameProps) => {
   return (
     <div>
       <div className="realative grid grid-rows-[1fr,auto,1fr] box-border gap-y-10">
-        <Header setInputType={setInputType} setGameMode={setGameMode} setQuestionLimit={setQuestionLimit}/>
+        <Header inputType={inputType} questionLimit={questionLimit} gameMode={gameMode} setInputType={setInputType} setGameMode={setGameMode} setQuestionLimit={setQuestionLimit}/>
         <GameArea inputType={inputType} questionImageLink={questionImageLink} questionLabel={questionLabel}/>
         <div></div>
       </div>

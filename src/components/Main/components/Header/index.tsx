@@ -25,7 +25,7 @@ export const Header = ({inputType,gameMode,questionLimit,setGameMode,setQuestion
           <BarItem label="25" isNumber={true} onClick={() => setQuestionLimit(25)} isActive={questionLimit == 25}/>
           <BarItem label="50" isNumber={true} onClick={() => setQuestionLimit(50)} isActive={questionLimit == 50}/>
           <BarItem label="100" isNumber={true} onClick={() => setQuestionLimit(100)} isActive={questionLimit == 100}/>
-          <BarItem icon={Wrench} isActive={false}/>
+          <BarItem icon={Wrench} isActive={questionLimit != 10 && questionLimit != 25 && questionLimit != 50 && questionLimit != 100}/>
         </div>
         <div className="w-[0.5%] w-min-[4px] h-[70%] bg-gray-900 rounded-xl self-center"></div>
         <div>        

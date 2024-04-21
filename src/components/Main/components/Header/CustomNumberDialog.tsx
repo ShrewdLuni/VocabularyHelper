@@ -23,9 +23,9 @@ export function CustomNumberDialog({questionLimit,setQuestionLimit} : CustomNumb
       <AlertDialogTrigger asChild>
         <BarItem icon={Wrench} isActive={questionLimit != 10 && questionLimit != 25 && questionLimit != 50 && questionLimit != 100}/>
       </AlertDialogTrigger>
-      <AlertDialogContent>
+      <AlertDialogContent className="bg-black">
         <AlertDialogHeader>
-          <AlertDialogTitle>Test duration</AlertDialogTitle>
+          <AlertDialogTitle className="text-white">Test duration</AlertDialogTitle>
           <Input type="number" value={questionLimit} onChange={(e) => setQuestionLimit(e.target.valueAsNumber)}/>
         </AlertDialogHeader>
         <AlertDialogFooter>

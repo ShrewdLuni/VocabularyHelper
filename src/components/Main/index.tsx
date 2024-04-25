@@ -5,13 +5,13 @@ interface GameProps{
   inputType: string
   questionImageLink: string
   questionLabel: string
-  gameMode: string
+  gameMode: "Grammar" | "Vocabulary"
   questionLimit: number
 
   setInputType: (value : "Typing" | "Buttons") => void
   setQuestionImageLink: (value : string) => void
   setQuestionLabel: (value : string) => void
-  setGameMode: (value : string) => void
+  setGameMode: (value : "Grammar" | "Vocabulary") => void
   setQuestionLimit: (value : number) => void
 }
 

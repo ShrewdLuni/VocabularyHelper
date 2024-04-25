@@ -5,7 +5,7 @@ import { useState } from "react";
 
 function App() {
   const [inputType,setInputType] = useState<"Typing" | "Buttons">("Typing")
-  const [gameMode,setGameMode] = useState("")
+  const [gameMode,setGameMode] = useState<"Grammar" | "Vocabulary">("Vocabulary")
   const [questionLimit,setQuestionLimit] = useState(100)
 
   // const [questionIndex,setQuestionIndex] = useState(0);
@@ -22,10 +22,10 @@ function App() {
   // }, [questionIndex]); 
 
 
-  function nextQuestion() {
-    setQuestionImageLink("data")
-    setQuestionLabel("data")
-  }
+  // function nextQuestion() {
+  //   setQuestionImageLink("data")
+  //   setQuestionLabel("data")
+  // }
 
   // function handleAnswer() {
   //   if(userAnswer == "data.answer"){

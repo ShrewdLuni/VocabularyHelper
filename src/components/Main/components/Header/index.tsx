@@ -2,12 +2,12 @@ import { BarItem } from "./BarItm"
 import { CustomNumberDialog } from "./CustomNumberDialog"
 
 interface HeaderProps{
-  inputType: string
-  gameMode: string
+  inputType: "Typing" | "Buttons"
+  gameMode: "Grammar" | "Vocabulary"
   questionLimit: number
 
   setInputType: (value : "Typing" | "Buttons") => void
-  setGameMode: (value : string) => void
+  setGameMode: (value : "Grammar" | "Vocabulary") => void
   setQuestionLimit: (value : number) => void
 }
 
